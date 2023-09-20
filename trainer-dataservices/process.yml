@@ -1,0 +1,7 @@
+apps:
+  - script   : 'server.js'
+    name     : 'global7500_services'
+    exec_mode: 'cluster'
+    instances: 'max'
+    watch: false
+

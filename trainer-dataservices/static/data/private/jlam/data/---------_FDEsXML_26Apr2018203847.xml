@@ -1,0 +1,5818 @@
+<?xml version="1.0"?>
+<FDEs_Report>
+<Report_Header>
+ <Report_Name>Flight Deck Effects</Report_Name>
+ <Report_Date_Time>26-Apr-2018 20:38</Report_Date_Time>
+ <Aircraft_Tail_Number>---------</Aircraft_Tail_Number>
+ <Aircraft_Serial_Number>0004      </Aircraft_Serial_Number>
+ <Aircraft_Type_Number>G7000     </Aircraft_Type_Number>
+ <Current_Flight_Leg_Counter>2     </Current_Flight_Leg_Counter>
+ <Version_Number>810-0106-310    </Version_Number>
+ <Tables_Part_Number>810-0099-3B0001-12</Tables_Part_Number>
+</Report_Header>
+<FDE>
+ <Equation_ID>7764    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Warning: CABIN ALT
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:10:37</FDE_Logged_Date_Time>
+ <Fault_Code>210W01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ CABIN ALT
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_WARN_CAS               VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_WARN_CAS               VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_WARN_CAS               VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_WARN_CAS               VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7765    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Caution: CABIN ALT
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:10:32</FDE_Logged_Date_Time>
+ <Fault_Code>210C02        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ CABIN ALT
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_CAUT_CAS               VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_CAUT_CAS               VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_CAUT_CAS               VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_CAUT_CAS               VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7783    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Caution: EMER DEPRESS ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:08:31</FDE_Logged_Date_Time>
+ <Fault_Code>210C20        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Emergency depressurization has been selected and
+ confirmed by the IASC.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (013) CAS_Word_11              VALUE: 13
+      FIELD: EMER_DEPRESS_ON_CAS              VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (013) CAS_Word_11              VALUE: 13
+      FIELD: EMER_DEPRESS_ON_CAS              VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (013) CAS_Word_11              VALUE: 13
+      FIELD: EMER_DEPRESS_ON_CAS              VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (013) CAS_Word_11              VALUE: 13
+      FIELD: EMER_DEPRESS_ON_CAS              VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4602    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Caution: FLT SPLRS DEPLOYED
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 18:45:24</FDE_Logged_Date_Time>
+ <Fault_Code>276C05        </Fault_Code>
+ <Number_of_Faults>1 </Number_of_Faults>
+ <Flight_Phase>DESCENT </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>3 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ FLT SPLRS DEPLOYED Caution CAS message is triggered
+ when FSCL is not retracted and (altitude is below 300
+ feet or when (altitude is (higher or equal 300 feet)
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (064) CAS_Word_52              VALUE: 64
+      FIELD: FLT_SPLRS_DEPLOYED_CAS           VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (064) CAS_Word_52              VALUE: 64
+      FIELD: FLT_SPLRS_DEPLOYED_CAS           VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (064) CAS_Word_52              VALUE: 64
+      FIELD: FLT_SPLRS_DEPLOYED_CAS           VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (064) CAS_Word_52              VALUE: 64
+      FIELD: FLT_SPLRS_DEPLOYED_CAS           VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>5026    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   FSCL (A526) NOT RETRACTED BELOW
+   300 FEET OR DURING AUTORETRACT /
+   REPORTED BY PFCC IN CONTROL
+   ]]>
+   </Message_Text>
+   <ATA>27-00-00</ATA>
+   <Logged_date_Time>26APR2018 18:45:27</Logged_date_Time>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+   <Fault_Code>2704005FSCL   </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4376    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Caution: FUEL IMBALANCE
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:33:07</FDE_Logged_Date_Time>
+ <Fault_Code>284C11        </Fault_Code>
+ <Number_of_Faults>1 </Number_of_Faults>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that a fuel quantity imbalance exists betwee
+ the Left and Right wing tanks leading to have a Fuel
+ Lateral CG:
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (057) CAS_Word_47              VALUE: 57
+      FIELD: FUEL_IMBALANCE_CAS               VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (057) CAS_Word_47              VALUE: 57
+      FIELD: FUEL_IMBALANCE_CAS               VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (057) CAS_Word_47              VALUE: 57
+      FIELD: FUEL_IMBALANCE_CAS               VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (057) CAS_Word_47              VALUE: 57
+      FIELD: FUEL_IMBALANCE_CAS               VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>5362    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   R FUEL CG TRANSFER PUMP FAULT /
+   Reported by FQMC
+
+   ]]>
+   </Message_Text>
+   <ATA>28-41-03</ATA>
+   <Logged_date_Time>26APR2018 19:21:20</Logged_date_Time>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+   <Fault_Code>2822002FQMC   </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7850    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: LOAD SHED
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:29:53</FDE_Logged_Date_Time>
+ <Fault_Code>246A56        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>3 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ At least one SSPC or RCCB has been shed
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (030) CAS_Word_24              VALUE: 30
+      FIELD: LOAD_SHED_CAS                    VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (030) CAS_Word_24              VALUE: 30
+      FIELD: LOAD_SHED_CAS                    VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (030) CAS_Word_24              VALUE: 30
+      FIELD: LOAD_SHED_CAS                    VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (030) CAS_Word_24              VALUE: 30
+      FIELD: LOAD_SHED_CAS                    VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>3864    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: BRAKE TEMP
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:23:07</FDE_Logged_Date_Time>
+ <Fault_Code>324A01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Brake Temperature in white range.
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (043) CAS_Word_35              VALUE: 43
+      FIELD: BRAKE_TEMP_CAS                   VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (043) CAS_Word_35              VALUE: 43
+      FIELD: BRAKE_TEMP_CAS                   VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (043) CAS_Word_35              VALUE: 43
+      FIELD: BRAKE_TEMP_CAS                   VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (043) CAS_Word_35              VALUE: 43
+      FIELD: BRAKE_TEMP_CAS                   VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>3789    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: NO TAKEOFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:21:10</FDE_Logged_Date_Time>
+ <Fault_Code>314A18        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>APPROACH</Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ One of PARK EMER BRAKE ON, CONFIG SLAT FLAP, CONFIG FL
+ SPLRS, CONFIG STAB TRIM, CONFIG RUDDER TRIM, CONFIG
+ AUTOPILOT CAS, or CONFIG SIDESTICK conditions and taxi
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (113) CAS_Word_75              VALUE: 113
+      FIELD: NO_TAKEOFF_CAS                   VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (113) CAS_Word_75              VALUE: 113
+      FIELD: NO_TAKEOFF_CAS                   VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (113) CAS_Word_75              VALUE: 113
+      FIELD: NO_TAKEOFF_CAS                   VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (113) CAS_Word_75              VALUE: 113
+      FIELD: NO_TAKEOFF_CAS                   VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7862    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: INT CABIN DOOR
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:17:01</FDE_Logged_Date_Time>
+ <Fault_Code>520A04        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>DESCENT </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>2 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The advisory is posted if essential SSPC is ENABLE and
+ the interior cabin doors are not completely in the
+ stowed position or the INT CABIN DOOR Switch is in the
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_CAS               VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_CAS               VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_CAS               VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_CAS               VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7402    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: SAT VOICE NO SIGNAL
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 18:51:37</FDE_Logged_Date_Time>
+ <Fault_Code>231A07        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ SATCOM reporting that coverage is degraded, causing
+ voice to be unavailable.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SAT_VOICE_NO_SIGNAL_CAS          VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SAT_VOICE_NO_SIGNAL_CAS          VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SAT_VOICE_NO_SIGNAL_CAS          VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SAT_VOICE_NO_SIGNAL_CAS          VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>2082    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: DATA LINK CPDLC FAIL
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 18:47:43</FDE_Logged_Date_Time>
+ <Fault_Code>230A09        </Fault_Code>
+ <Number_of_Faults>4 </Number_of_Faults>
+ <Flight_Phase>DESCENT </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Both DLCAs have failed so FANS1/A+ and Link 2000+
+ applications cannot function (including CPDLC, ATN,
+ AFN, ADSC, ATN); however, Data Link still works for
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_LINK_CPDLC_FAIL_CAS         VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_LINK_CPDLC_FAIL_CAS         VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_LINK_CPDLC_FAIL_CAS         VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_LINK_CPDLC_FAIL_CAS         VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>3174    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   RIU 1 output bus L-RIU-12 is
+   disconnected or failed
+
+   ]]>
+   </Message_Text>
+   <ATA>23-81-01</ATA>
+   <Logged_date_Time>26APR2018 15:44:04</Logged_date_Time>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+   <Fault_Code>2381019RIU1   </Fault_Code>
+  </Fault_Msg>
+  <Fault_Msg>
+   <Equation_ID>3132    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   RIU 1 output bus LA-RIU-2 is
+   disconnected or failed
+
+   ]]>
+   </Message_Text>
+   <ATA>23-81-01</ATA>
+   <Logged_date_Time>26APR2018 15:43:41</Logged_date_Time>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+   <Fault_Code>2381005RIU1   </Fault_Code>
+  </Fault_Msg>
+  <Fault_Msg>
+   <Equation_ID>3172    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   RIU 1 output bus L-RIU-11 is
+   disconnected or failed
+
+   ]]>
+   </Message_Text>
+   <ATA>23-81-01</ATA>
+   <Logged_date_Time>26APR2018 15:43:38</Logged_date_Time>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+   <Fault_Code>2381018RIU1   </Fault_Code>
+  </Fault_Msg>
+  <Fault_Msg>
+   <Equation_ID>3185    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   RIU 1 output bus L-RIU-CVR is
+   disconnected or failed
+
+   ]]>
+   </Message_Text>
+   <ATA>23-81-01</ATA>
+   <Logged_date_Time>26APR2018 15:43:37</Logged_date_Time>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+   <Fault_Code>2381023RIU1   </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>3788    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: ENG SYNC LIMITED
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 18:45:02</FDE_Logged_Date_Time>
+ <Fault_Code>720A03        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>6 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Engine synchronize at limit.
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (112) CAS_Word_74              VALUE: 112
+      FIELD: ENG_SYNC_LIMITED_CAS             VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (112) CAS_Word_74              VALUE: 112
+      FIELD: ENG_SYNC_LIMITED_CAS             VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (112) CAS_Word_74              VALUE: 112
+      FIELD: ENG_SYNC_LIMITED_CAS             VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (112) CAS_Word_74              VALUE: 112
+      FIELD: ENG_SYNC_LIMITED_CAS             VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7400    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: SATCOM DATA FAIL
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:43:31</FDE_Logged_Date_Time>
+ <Fault_Code>231A06        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>38</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ SATCOM reporting that it cannot support data
+ transmission due to a failure. Inhibited when SATCOM i
+ not Logged on
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SATCOM_DATA_FAIL_CAS             VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SATCOM_DATA_FAIL_CAS             VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SATCOM_DATA_FAIL_CAS             VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SATCOM_DATA_FAIL_CAS             VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>2081    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: DATA LINK FAIL
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:43:28</FDE_Logged_Date_Time>
+ <Fault_Code>230A08        </Fault_Code>
+ <Number_of_Faults>4 </Number_of_Faults>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>23</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Data Link RIU reports a CMU failure
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_LINK_FAIL_CAS               VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_LINK_FAIL_CAS               VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_LINK_FAIL_CAS               VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_LINK_FAIL_CAS               VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>3174    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   RIU 1 output bus L-RIU-12 is
+   disconnected or failed
+
+   ]]>
+   </Message_Text>
+   <ATA>23-81-01</ATA>
+   <Logged_date_Time>26APR2018 15:44:04</Logged_date_Time>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+   <Fault_Code>2381019RIU1   </Fault_Code>
+  </Fault_Msg>
+  <Fault_Msg>
+   <Equation_ID>3132    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   RIU 1 output bus LA-RIU-2 is
+   disconnected or failed
+
+   ]]>
+   </Message_Text>
+   <ATA>23-81-01</ATA>
+   <Logged_date_Time>26APR2018 15:43:41</Logged_date_Time>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+   <Fault_Code>2381005RIU1   </Fault_Code>
+  </Fault_Msg>
+  <Fault_Msg>
+   <Equation_ID>3172    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   RIU 1 output bus L-RIU-11 is
+   disconnected or failed
+
+   ]]>
+   </Message_Text>
+   <ATA>23-81-01</ATA>
+   <Logged_date_Time>26APR2018 15:43:38</Logged_date_Time>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+   <Fault_Code>2381018RIU1   </Fault_Code>
+  </Fault_Msg>
+  <Fault_Msg>
+   <Equation_ID>3185    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   RIU 1 output bus L-RIU-CVR is
+   disconnected or failed
+
+   ]]>
+   </Message_Text>
+   <ATA>23-81-01</ATA>
+   <Logged_date_Time>26APR2018 15:43:37</Logged_date_Time>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+   <Fault_Code>2381023RIU1   </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4359    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: -> FUEL XFER ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:39:12</FDE_Logged_Date_Time>
+ <Fault_Code>282A01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that the Left to Right transfer system is
+ being transferred in the Auto mode of operation
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: L_TO_R_FUEL_XFER_ON_ADV_CAS      VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: L_TO_R_FUEL_XFER_ON_ADV_CAS      VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: L_TO_R_FUEL_XFER_ON_ADV_CAS      VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: L_TO_R_FUEL_XFER_ON_ADV_CAS      VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>3431    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: SMS SHORT RWY INOP
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:34:39</FDE_Logged_Date_Time>
+ <Fault_Code>314A13        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>2 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that the SMS Short Runway modes (Short Runwa
+ on take off and Short Runway on landing) have been
+ disabled due to incomplete data entry from the pilot.
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SMS_SHORT_RWY_INOP_CAS           VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SMS_SHORT_RWY_INOP_CAS           VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SMS_SHORT_RWY_INOP_CAS           VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SMS_SHORT_RWY_INOP_CAS           VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4375    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: OUTER WING IMBALANCE
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:34:11</FDE_Logged_Date_Time>
+ <Fault_Code>282A10        </Fault_Code>
+ <Number_of_Faults>1 </Number_of_Faults>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that a fuel quantity imbalance exists betwee
+ the left and right outer tanks of more than 350 lbs in
+ flight or 250 lbs on ground / approach configuration.
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: OUTER_WING_IMBALANCE_CAS         VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: OUTER_WING_IMBALANCE_CAS         VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: OUTER_WING_IMBALANCE_CAS         VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: OUTER_WING_IMBALANCE_CAS         VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>5362    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   R FUEL CG TRANSFER PUMP FAULT /
+   Reported by FQMC
+
+   ]]>
+   </Message_Text>
+   <ATA>28-41-03</ATA>
+   <Logged_date_Time>26APR2018 19:21:20</Logged_date_Time>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+   <Fault_Code>2822002FQMC   </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4356    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: <- FUEL XFER ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:33:06</FDE_Logged_Date_Time>
+ <Fault_Code>282A02        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>3 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that the Right to Left transfer system is
+ being transferred in the Auto mode of operation
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: R_TO_L_FUEL_XFER_ON_ADV_CAS      VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: R_TO_L_FUEL_XFER_ON_ADV_CAS      VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: R_TO_L_FUEL_XFER_ON_ADV_CAS      VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: R_TO_L_FUEL_XFER_ON_ADV_CAS      VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>1822    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: INFO
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:33:03</FDE_Logged_Date_Time>
+ <Fault_Code>314A07        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>21</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ An unacknowledged info message is present on the INFO
+ synoptic page.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: INFO_CAS                         VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: INFO_CAS                         VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: INFO_CAS                         VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: INFO_CAS                         VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7386    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: KA SAT GND TX ENBL
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:32:52</FDE_Logged_Date_Time>
+ <Fault_Code>231A02        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>2 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ KA SAT GND TX ENBL is true when KA GND TX ENABLE is
+ selected on the ground. Removed when KA GND TX ENABLE
+ is pressed again or when WEIGHT OFF WHEELS.
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: KA_SAT_GND_TX_ENBL_CAS           VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: KA_SAT_GND_TX_ENBL_CAS           VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: KA_SAT_GND_TX_ENBL_CAS           VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: KA_SAT_GND_TX_ENBL_CAS           VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>8074    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 27 FLT CTRL - FLAP SYSTEM
+ COMM REDUND LOSS
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:24:52</FDE_Logged_Date_Time>
+ <Fault_Code>271N07        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>3 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ a fault that does not inhibit the channel has
+ occurred
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (024) Info_Word_20             VALUE: 24
+      FIELD: FLAP_SYSTEM_COMM_REDUND_LOSS_INF VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (024) Info_Word_20             VALUE: 24
+      FIELD: FLAP_SYSTEM_COMM_REDUND_LOSS_INF VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (024) Info_Word_20             VALUE: 24
+      FIELD: FLAP_SYSTEM_COMM_REDUND_LOSS_INF VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (024) Info_Word_20             VALUE: 24
+      FIELD: FLAP_SYSTEM_COMM_REDUND_LOSS_INF VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>1775    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 23 COMM - CVR INOP
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:43:59</FDE_Logged_Date_Time>
+ <Fault_Code>237N01        </Fault_Code>
+ <Number_of_Faults>1 </Number_of_Faults>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>17</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ 23 COMM - CVR INOP
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (025) Info_Word_21             VALUE: 25
+      FIELD: CVR_INOP_INFO                    VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (025) Info_Word_21             VALUE: 25
+      FIELD: CVR_INOP_INFO                    VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (025) Info_Word_21             VALUE: 25
+      FIELD: CVR_INOP_INFO                    VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (025) Info_Word_21             VALUE: 25
+      FIELD: CVR_INOP_INFO                    VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>876     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   DCM 2B output bus RB-DMC-13 is
+   disconnected or failed
+
+   ]]>
+   </Message_Text>
+   <ATA>31-42-07</ATA>
+   <Logged_date_Time>26APR2018 15:43:38</Logged_date_Time>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+   <Fault_Code>3142080DCM2B  </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7352    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 24 ELECTRICAL - SOFTWARE
+ MISCONFIG
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:32:52</FDE_Logged_Date_Time>
+ <Fault_Code>246N64        </Fault_Code>
+ <Number_of_Faults>2 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The EDMU contains different software than the opposite
+ EDMU or is missing a config file or one or more of its
+ subordinate LRUs' software is not seen as compatible
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: SOFTWARE_MISCONFIG_INFO          VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: SOFTWARE_MISCONFIG_INFO          VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: SOFTWARE_MISCONFIG_INFO          VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: SOFTWARE_MISCONFIG_INFO          VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>8149    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   EDMU 1 CONTROLLER MISSING
+   CONFIGURATION FILE
+
+   ]]>
+   </Message_Text>
+   <ATA>24-61-00</ATA>
+   <Logged_date_Time>26APR2018 15:32:52</Logged_date_Time>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+   <Fault_Code>2461185EDMU1  </Fault_Code>
+  </Fault_Msg>
+  <Fault_Msg>
+   <Equation_ID>7749    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   EDMU 2 CONTROLLER MISSING
+   CONFIGURATION FILE
+
+   ]]>
+   </Message_Text>
+   <ATA>24-61-00</ATA>
+   <Logged_date_Time>26APR2018 15:32:52</Logged_date_Time>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+   <Fault_Code>2461134EDMU2  </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>8422    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 27 FLT CTRL - SLAT/FLAP
+ FAULT
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:32:52</FDE_Logged_Date_Time>
+ <Fault_Code>271N02        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Loss of system redundancy in the SFCS requires
+ maintenance prior to dispatch.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (024) Info_Word_20             VALUE: 24
+      FIELD: SLAT_FLAP_FAULT_INFO             VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (024) Info_Word_20             VALUE: 24
+      FIELD: SLAT_FLAP_FAULT_INFO             VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (024) Info_Word_20             VALUE: 24
+      FIELD: SLAT_FLAP_FAULT_INFO             VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (024) Info_Word_20             VALUE: 24
+      FIELD: SLAT_FLAP_FAULT_INFO             VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7861    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: NOSE STEER OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:29:39</FDE_Logged_Date_Time>
+ <Fault_Code>320S38        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Nosewheel steering selected OFF.
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_STEER_OFF_CAS               VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_STEER_OFF_CAS               VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_STEER_OFF_CAS               VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_STEER_OFF_CAS               VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>3865    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: PARK/EMER BRAKE ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:29:35</FDE_Logged_Date_Time>
+ <Fault_Code>324S01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>2 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Parking Brake is set on Ground.
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (044) CAS_Word_36              VALUE: 44
+      FIELD: PARK_EMER_BRAKE_ON_STAT_CAS      VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (044) CAS_Word_36              VALUE: 44
+      FIELD: PARK_EMER_BRAKE_ON_STAT_CAS      VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (044) CAS_Word_36              VALUE: 44
+      FIELD: PARK_EMER_BRAKE_ON_STAT_CAS      VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (044) CAS_Word_36              VALUE: 44
+      FIELD: PARK_EMER_BRAKE_ON_STAT_CAS      VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>6933    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: APU IN START
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:22:37</FDE_Logged_Date_Time>
+ <Fault_Code>494S03        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Status indicates that APU is currently in the POWER-UP
+ State or START PREPARATION; the indication is set unti
+ the APU has positioned the INLET DOOR to the commanded
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (010) CAS_Word_8               VALUE: 10
+      FIELD: APU_IN_START_CAS                 VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (010) CAS_Word_8               VALUE: 10
+      FIELD: APU_IN_START_CAS                 VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (010) CAS_Word_8               VALUE: 10
+      FIELD: APU_IN_START_CAS                 VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (010) CAS_Word_8               VALUE: 10
+      FIELD: APU_IN_START_CAS                 VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>3866    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: AUTOBRAKE HI
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:14:39</FDE_Logged_Date_Time>
+ <Fault_Code>324S02        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>DESCENT </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Autobrake Switch is set to high deceleration rate.
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (044) CAS_Word_36              VALUE: 44
+      FIELD: AUTOBRAKE_HI_CAS                 VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (044) CAS_Word_36              VALUE: 44
+      FIELD: AUTOBRAKE_HI_CAS                 VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (044) CAS_Word_36              VALUE: 44
+      FIELD: AUTOBRAKE_HI_CAS                 VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (044) CAS_Word_36              VALUE: 44
+      FIELD: AUTOBRAKE_HI_CAS                 VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7785    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: MAN PRESS CONTROL
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:12:50</FDE_Logged_Date_Time>
+ <Fault_Code>210S22        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ AUTO/MAN PBA has been set to the manual position.
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (013) CAS_Word_11              VALUE: 13
+      FIELD: MAN_PRESS_CONTROL_CAS            VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (013) CAS_Word_11              VALUE: 13
+      FIELD: MAN_PRESS_CONTROL_CAS            VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (013) CAS_Word_11              VALUE: 13
+      FIELD: MAN_PRESS_CONTROL_CAS            VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (013) CAS_Word_11              VALUE: 13
+      FIELD: MAN_PRESS_CONTROL_CAS            VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7803    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: RAM AIR ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:10:09</FDE_Logged_Date_Time>
+ <Fault_Code>210S40        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ RAM AIR selected OPEN and ERAV detected Full Open
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: RAM_AIR_ON_CAS                   VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: RAM_AIR_ON_CAS                   VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: RAM_AIR_ON_CAS                   VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: RAM_AIR_ON_CAS                   VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7800    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: R PACK OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:08:07</FDE_Logged_Date_Time>
+ <Fault_Code>210S37        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ R PACK selected OFF and confirmed commanded OFF by the
+ IASC
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: R_PACK_OFF_CAS                   VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: R_PACK_OFF_CAS                   VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: R_PACK_OFF_CAS                   VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: R_PACK_OFF_CAS                   VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7805    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: RECIRC FAN OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 19:06:10</FDE_Logged_Date_Time>
+ <Fault_Code>210S41        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ RECIRC FAN selected OFF and confirmed off by the IASC
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: RECIRC_FAN_OFF_CAS               VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: RECIRC_FAN_OFF_CAS               VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: RECIRC_FAN_OFF_CAS               VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: RECIRC_FAN_OFF_CAS               VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7828    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: SEAT BELTS SIGN ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 18:58:34</FDE_Logged_Date_Time>
+ <Fault_Code>335S04        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The SEAT BELT SIGN ON is posted when the SEAT BELT
+ SWITCH is set to ON.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: SEAT_BELTS_SIGN_ON_CAS           VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: SEAT_BELTS_SIGN_ON_CAS           VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: SEAT_BELTS_SIGN_ON_CAS           VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: SEAT_BELTS_SIGN_ON_CAS           VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7827    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: NO SMKG SIGN ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 18:58:33</FDE_Logged_Date_Time>
+ <Fault_Code>335S05        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The status message NO SMOKING SIGN ON is posted when
+ the NO SMOKING SIGN SWITCH is set to ON.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: NO_SMKG_SIGN_ON_CAS              VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: NO_SMKG_SIGN_ON_CAS              VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: NO_SMKG_SIGN_ON_CAS              VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: NO_SMKG_SIGN_ON_CAS              VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7799    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: L PACK OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 16:22:19</FDE_Logged_Date_Time>
+ <Fault_Code>210S36        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>2 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ L PACK selected OFF and confirmed commanded OFF by the
+ IASC
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: L_PACK_OFF_CAS                   VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: L_PACK_OFF_CAS                   VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: L_PACK_OFF_CAS                   VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: L_PACK_OFF_CAS                   VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4346    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: AFT FUEL XFER OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:32:52</FDE_Logged_Date_Time>
+ <Fault_Code>282S03        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that aft tank fuel transfer has been
+ inhibited under Manual mode
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: AFT_FUEL_XFER_OFF_CAS            VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: AFT_FUEL_XFER_OFF_CAS            VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: AFT_FUEL_XFER_OFF_CAS            VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: AFT_FUEL_XFER_OFF_CAS            VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4349    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: CTR TO L FUEL XFR OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:32:52</FDE_Logged_Date_Time>
+ <Fault_Code>282S06        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>3 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that center fuel transfer to Left wing has
+ been inhibited under Manual mode
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_L_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_L_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_L_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_L_FUEL_XFR_OFF_CAS        VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4350    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: CTR TO R FUEL XFR OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:32:52</FDE_Logged_Date_Time>
+ <Fault_Code>282S07        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>3 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that center fuel transfer to Right wing has
+ been inhibited under Manual mode
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_R_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_R_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_R_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_R_FUEL_XFR_OFF_CAS        VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4384    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: FUEL CG CTRL OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:32:52</FDE_Logged_Date_Time>
+ <Fault_Code>286S01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>5 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ CG control system has been inhibited under Manual mode
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: FUEL_CG_CTRL_OFF_CAS             VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: FUEL_CG_CTRL_OFF_CAS             VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: FUEL_CG_CTRL_OFF_CAS             VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: FUEL_CG_CTRL_OFF_CAS             VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7863    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: INT CABIN DOOR STOWED
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>26Apr2018 15:32:52</FDE_Logged_Date_Time>
+ <Fault_Code>520S05        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>5 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The status msg is displayed when the INT CABIN switch
+ is in the stowed position (45) and the interior doors
+ are in stowed position.
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_STOWED_CAS        VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_STOWED_CAS        VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_STOWED_CAS        VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_STOWED_CAS        VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7764    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Warning: CABIN ALT
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:33:23</FDE_Logged_Date_Time>
+ <Fault_Code>210W01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ CABIN ALT
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_WARN_CAS               VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_WARN_CAS               VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_WARN_CAS               VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_WARN_CAS               VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4515    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Caution: FLT CTRL DIRECT ADS
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 23:04:10</FDE_Logged_Date_Time>
+ <Fault_Code>270C03        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>11</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ FLT CTRL DIRECT ADS Caution CAS message is triggered
+ when the PFCC ADS ISM monitor is active.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (063) CAS_Word_51              VALUE: 63
+      FIELD: FLT_CTRL_DIRECT_ADS_CAS          VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (063) CAS_Word_51              VALUE: 63
+      FIELD: FLT_CTRL_DIRECT_ADS_CAS          VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (063) CAS_Word_51              VALUE: 63
+      FIELD: FLT_CTRL_DIRECT_ADS_CAS          VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (063) CAS_Word_51              VALUE: 63
+      FIELD: FLT_CTRL_DIRECT_ADS_CAS          VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>1267    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Caution: HYD 3 LO PRESS
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 23:04:09</FDE_Logged_Date_Time>
+ <Fault_Code>293C02        </Fault_Code>
+ <Number_of_Faults>1 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The HYD_3_LO_PRESS_CAS is active when the
+ HYD_3_LO_PRESS_INT is true.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_3_LO_PRESS_CAS               VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_3_LO_PRESS_CAS               VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_3_LO_PRESS_CAS               VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_3_LO_PRESS_CAS               VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>1392    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   HYD SYS 3 LO PRESS DETECTED
+
+
+   ]]>
+   </Message_Text>
+   <ATA>29-13-00</ATA>
+   <Logged_date_Time>25APR2018 23:04:09</Logged_date_Time>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+   <Fault_Code>2913004PHSD   </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4602    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Caution: FLT SPLRS DEPLOYED
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:51:36</FDE_Logged_Date_Time>
+ <Fault_Code>276C05        </Fault_Code>
+ <Number_of_Faults>1 </Number_of_Faults>
+ <Flight_Phase>DESCENT </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>2 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ FLT SPLRS DEPLOYED Caution CAS message is triggered
+ when FSCL is not retracted and (altitude is below 300
+ feet or when (altitude is (higher or equal 300 feet)
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (064) CAS_Word_52              VALUE: 64
+      FIELD: FLT_SPLRS_DEPLOYED_CAS           VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (064) CAS_Word_52              VALUE: 64
+      FIELD: FLT_SPLRS_DEPLOYED_CAS           VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (064) CAS_Word_52              VALUE: 64
+      FIELD: FLT_SPLRS_DEPLOYED_CAS           VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (064) CAS_Word_52              VALUE: 64
+      FIELD: FLT_SPLRS_DEPLOYED_CAS           VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>5026    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   FSCL (A526) NOT RETRACTED BELOW
+   300 FEET OR DURING AUTORETRACT /
+   REPORTED BY PFCC IN CONTROL
+   ]]>
+   </Message_Text>
+   <ATA>27-00-00</ATA>
+   <Logged_date_Time>25APR2018 22:51:40</Logged_date_Time>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+   <Fault_Code>2704005FSCL   </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7765    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Caution: CABIN ALT
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:31:37</FDE_Logged_Date_Time>
+ <Fault_Code>210C02        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ CABIN ALT
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_CAUT_CAS               VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_CAUT_CAS               VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_CAUT_CAS               VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (012) CAS_Word_10              VALUE: 12
+      FIELD: CABIN_ALT_CAUT_CAS               VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7850    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: LOAD SHED
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 23:04:06</FDE_Logged_Date_Time>
+ <Fault_Code>246A56        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>9 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ At least one SSPC or RCCB has been shed
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (030) CAS_Word_24              VALUE: 30
+      FIELD: LOAD_SHED_CAS                    VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (030) CAS_Word_24              VALUE: 30
+      FIELD: LOAD_SHED_CAS                    VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (030) CAS_Word_24              VALUE: 30
+      FIELD: LOAD_SHED_CAS                    VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (030) CAS_Word_24              VALUE: 30
+      FIELD: LOAD_SHED_CAS                    VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>3789    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: NO TAKEOFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:59:28</FDE_Logged_Date_Time>
+ <Fault_Code>314A18        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>3 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ One of PARK EMER BRAKE ON, CONFIG SLAT FLAP, CONFIG FL
+ SPLRS, CONFIG STAB TRIM, CONFIG RUDDER TRIM, CONFIG
+ AUTOPILOT CAS, or CONFIG SIDESTICK conditions and taxi
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (113) CAS_Word_75              VALUE: 113
+      FIELD: NO_TAKEOFF_CAS                   VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (113) CAS_Word_75              VALUE: 113
+      FIELD: NO_TAKEOFF_CAS                   VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (113) CAS_Word_75              VALUE: 113
+      FIELD: NO_TAKEOFF_CAS                   VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (113) CAS_Word_75              VALUE: 113
+      FIELD: NO_TAKEOFF_CAS                   VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7824    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: PAX OXYGEN ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:38:09</FDE_Logged_Date_Time>
+ <Fault_Code>350A03        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>2 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ PAX OXYGEN ON is ADVISORY if the RCE outlet pressure
+ reported by Pax-Oxy_Flow_On is TRUE for 400ms
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: PAX_OXYGEN_ON_CAS                VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: PAX_OXYGEN_ON_CAS                VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: PAX_OXYGEN_ON_CAS                VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: PAX_OXYGEN_ON_CAS                VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>1822    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: INFO
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:37:20</FDE_Logged_Date_Time>
+ <Fault_Code>314A07        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>41</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ An unacknowledged info message is present on the INFO
+ synoptic page.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: INFO_CAS                         VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: INFO_CAS                         VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: INFO_CAS                         VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: INFO_CAS                         VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7400    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: SATCOM DATA FAIL
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:36:51</FDE_Logged_Date_Time>
+ <Fault_Code>231A06        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>28</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ SATCOM reporting that it cannot support data
+ transmission due to a failure. Inhibited when SATCOM i
+ not Logged on
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SATCOM_DATA_FAIL_CAS             VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SATCOM_DATA_FAIL_CAS             VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SATCOM_DATA_FAIL_CAS             VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SATCOM_DATA_FAIL_CAS             VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>2081    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: DATA LINK FAIL
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:36:49</FDE_Logged_Date_Time>
+ <Fault_Code>230A08        </Fault_Code>
+ <Number_of_Faults>3 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>35</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Data Link RIU reports a CMU failure
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_LINK_FAIL_CAS               VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_LINK_FAIL_CAS               VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_LINK_FAIL_CAS               VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_LINK_FAIL_CAS               VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>3197    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   RIU 1 output bus L-RIU-PRINTER is
+   disconnected or failed
+
+   ]]>
+   </Message_Text>
+   <ATA>23-81-01</ATA>
+   <Logged_date_Time>25APR2018 23:00:01</Logged_date_Time>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+   <Fault_Code>2381024RIU1   </Fault_Code>
+  </Fault_Msg>
+  <Fault_Msg>
+   <Equation_ID>3172    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   RIU 1 output bus L-RIU-11 is
+   disconnected or failed
+
+   ]]>
+   </Message_Text>
+   <ATA>23-81-01</ATA>
+   <Logged_date_Time>25APR2018 22:37:19</Logged_date_Time>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+   <Fault_Code>2381018RIU1   </Fault_Code>
+  </Fault_Msg>
+  <Fault_Msg>
+   <Equation_ID>3174    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   RIU 1 output bus L-RIU-12 is
+   disconnected or failed
+
+   ]]>
+   </Message_Text>
+   <ATA>23-81-01</ATA>
+   <Logged_date_Time>25APR2018 22:36:58</Logged_date_Time>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+   <Fault_Code>2381019RIU1   </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>3431    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: SMS SHORT RWY INOP
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:16:56</FDE_Logged_Date_Time>
+ <Fault_Code>314A13        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>6 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that the SMS Short Runway modes (Short Runwa
+ on take off and Short Runway on landing) have been
+ disabled due to incomplete data entry from the pilot.
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SMS_SHORT_RWY_INOP_CAS           VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SMS_SHORT_RWY_INOP_CAS           VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SMS_SHORT_RWY_INOP_CAS           VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SMS_SHORT_RWY_INOP_CAS           VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4375    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: OUTER WING IMBALANCE
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:16:39</FDE_Logged_Date_Time>
+ <Fault_Code>282A10        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>3 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that a fuel quantity imbalance exists betwee
+ the left and right outer tanks of more than 350 lbs in
+ flight or 250 lbs on ground / approach configuration.
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: OUTER_WING_IMBALANCE_CAS         VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: OUTER_WING_IMBALANCE_CAS         VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: OUTER_WING_IMBALANCE_CAS         VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: OUTER_WING_IMBALANCE_CAS         VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4356    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: <- FUEL XFER ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:16:38</FDE_Logged_Date_Time>
+ <Fault_Code>282A02        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>2 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that the Right to Left transfer system is
+ being transferred in the Auto mode of operation
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: R_TO_L_FUEL_XFER_ON_ADV_CAS      VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: R_TO_L_FUEL_XFER_ON_ADV_CAS      VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: R_TO_L_FUEL_XFER_ON_ADV_CAS      VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: R_TO_L_FUEL_XFER_ON_ADV_CAS      VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7862    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: INT CABIN DOOR
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:15:20</FDE_Logged_Date_Time>
+ <Fault_Code>520A04        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>11</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The advisory is posted if essential SSPC is ENABLE and
+ the interior cabin doors are not completely in the
+ stowed position or the INT CABIN DOOR Switch is in the
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_CAS               VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_CAS               VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_CAS               VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_CAS               VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7386    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: KA SAT GND TX ENBL
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:15:10</FDE_Logged_Date_Time>
+ <Fault_Code>231A02        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>3 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ KA SAT GND TX ENBL is true when KA GND TX ENABLE is
+ selected on the ground. Removed when KA GND TX ENABLE
+ is pressed again or when WEIGHT OFF WHEELS.
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: KA_SAT_GND_TX_ENBL_CAS           VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: KA_SAT_GND_TX_ENBL_CAS           VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: KA_SAT_GND_TX_ENBL_CAS           VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: KA_SAT_GND_TX_ENBL_CAS           VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4299    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 32 GEAR - STEERING CONTROL
+ SYS REDUND LOSS
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 23:02:12</FDE_Logged_Date_Time>
+ <Fault_Code>325N07        </Fault_Code>
+ <Number_of_Faults>1 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>3 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Loss of redundancy of the steering control function
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (047) Info_Word_39             VALUE: 47
+      FIELD: STEER_Ctl_SYS_REDUND_LOSS_INFO   VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (047) Info_Word_39             VALUE: 47
+      FIELD: STEER_Ctl_SYS_REDUND_LOSS_INFO   VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (047) Info_Word_39             VALUE: 47
+      FIELD: STEER_Ctl_SYS_REDUND_LOSS_INFO   VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (047) Info_Word_39             VALUE: 47
+      FIELD: STEER_Ctl_SYS_REDUND_LOSS_INFO   VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>4267    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Internal Fault/Reported by LGSCU
+   CHB
+
+   ]]>
+   </Message_Text>
+   <ATA>32-31-01</ATA>
+   <Logged_date_Time>25APR2018 23:02:10</Logged_date_Time>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+   <Fault_Code>3231106LGSCUB </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>6105    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 24 ELECTRICAL - RAT DEPLOY
+ LOGIC INOP
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:59:13</FDE_Logged_Date_Time>
+ <Fault_Code>242N15        </Fault_Code>
+ <Number_of_Faults>1 </Number_of_Faults>
+ <Flight_Phase>APPROACH</Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The RAT Deploy logic has been detected failed
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: RAT_DEPLOY_LOGIC_INOP_INFO       VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: RAT_DEPLOY_LOGIC_INOP_INFO       VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: RAT_DEPLOY_LOGIC_INOP_INFO       VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: RAT_DEPLOY_LOGIC_INOP_INFO       VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>6210    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   EMERLOG RAT LOGIC FAILED
+
+
+   ]]>
+   </Message_Text>
+   <ATA>24-61-00</ATA>
+   <Logged_date_Time>25APR2018 22:59:10</Logged_date_Time>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+   <Fault_Code>2464015EMERLOG</Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>1775    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 23 COMM - CVR INOP
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:37:19</FDE_Logged_Date_Time>
+ <Fault_Code>237N01        </Fault_Code>
+ <Number_of_Faults>1 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>30</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ 23 COMM - CVR INOP
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (025) Info_Word_21             VALUE: 25
+      FIELD: CVR_INOP_INFO                    VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (025) Info_Word_21             VALUE: 25
+      FIELD: CVR_INOP_INFO                    VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (025) Info_Word_21             VALUE: 25
+      FIELD: CVR_INOP_INFO                    VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (025) Info_Word_21             VALUE: 25
+      FIELD: CVR_INOP_INFO                    VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>876     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   DCM 2B output bus RB-DMC-13 is
+   disconnected or failed
+
+   ]]>
+   </Message_Text>
+   <ATA>31-42-07</ATA>
+   <Logged_date_Time>25APR2018 22:36:58</Logged_date_Time>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+   <Fault_Code>3142080DCM2B  </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>6015    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 47 FUEL TANK INERT - SYS
+ SHUTDOWN
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:15:10</FDE_Logged_Date_Time>
+ <Fault_Code>473N02        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>8 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Fuel Tank Inerting System inoperative due to internal
+ failure or output bus failure managed by the secure
+ shutdown of the system
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (041) Info_Word_33             VALUE: 41
+      FIELD: FTIS_SYS_SHUTDOWN_INFO           VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (041) Info_Word_33             VALUE: 41
+      FIELD: FTIS_SYS_SHUTDOWN_INFO           VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (041) Info_Word_33             VALUE: 41
+      FIELD: FTIS_SYS_SHUTDOWN_INFO           VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (041) Info_Word_33             VALUE: 41
+      FIELD: FTIS_SYS_SHUTDOWN_INFO           VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7352    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 24 ELECTRICAL - SOFTWARE
+ MISCONFIG
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:15:10</FDE_Logged_Date_Time>
+ <Fault_Code>246N64        </Fault_Code>
+ <Number_of_Faults>2 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>10</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The EDMU contains different software than the opposite
+ EDMU or is missing a config file or one or more of its
+ subordinate LRUs' software is not seen as compatible
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: SOFTWARE_MISCONFIG_INFO          VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: SOFTWARE_MISCONFIG_INFO          VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: SOFTWARE_MISCONFIG_INFO          VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: SOFTWARE_MISCONFIG_INFO          VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>8149    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   EDMU 1 CONTROLLER MISSING
+   CONFIGURATION FILE
+
+   ]]>
+   </Message_Text>
+   <ATA>24-61-00</ATA>
+   <Logged_date_Time>25APR2018 22:15:10</Logged_date_Time>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+   <Fault_Code>2461185EDMU1  </Fault_Code>
+  </Fault_Msg>
+  <Fault_Msg>
+   <Equation_ID>7749    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   EDMU 2 CONTROLLER MISSING
+   CONFIGURATION FILE
+
+   ]]>
+   </Message_Text>
+   <ATA>24-61-00</ATA>
+   <Logged_date_Time>25APR2018 22:15:10</Logged_date_Time>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+   <Fault_Code>2461134EDMU2  </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7750    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: HYD PTU OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 23:04:22</FDE_Logged_Date_Time>
+ <Fault_Code>291S01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>13</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The HYD PTU OFF CAS message is active when the cockpit
+ PTU switch is in the OFF position and the PTU pressure
+ switch is not indicating high pressure. This is a
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_PTU_OFF_CAS                  VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_PTU_OFF_CAS                  VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_PTU_OFF_CAS                  VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_PTU_OFF_CAS                  VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7753    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: HYD PUMP 1B OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 23:04:21</FDE_Logged_Date_Time>
+ <Fault_Code>291S04        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>13</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The HYD PUMP 1B OFF CAS message is active when the
+ cockpit 1B switch is in the OFF position and the pump
+ 1B pressure switch is not indicating high pressure.
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_1B_OFF_CAS              VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_1B_OFF_CAS              VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_1B_OFF_CAS              VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_1B_OFF_CAS              VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7757    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: HYD PUMP 3B OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 23:04:21</FDE_Logged_Date_Time>
+ <Fault_Code>291S08        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>13</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The HYD PUMP 3B OFF CAS message is active when the
+ cockpit 3B switch is in the OFF position and the pump
+ 3B pressure switch is not indicating high pressure.
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_3B_OFF_CAS              VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_3B_OFF_CAS              VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_3B_OFF_CAS              VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_3B_OFF_CAS              VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7874    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: L ENG SHUTDOWN
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 23:04:10</FDE_Logged_Date_Time>
+ <Fault_Code>720S20        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>11</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates pilot commanded engine shutdown (ensure not
+ posted w dual engine out message)
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: L_ENG_SHUTDOWN_CAS               VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: L_ENG_SHUTDOWN_CAS               VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: L_ENG_SHUTDOWN_CAS               VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: L_ENG_SHUTDOWN_CAS               VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7875    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: R ENG SHUTDOWN
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 23:04:07</FDE_Logged_Date_Time>
+ <Fault_Code>720S21        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>12</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates pilot commanded engine is shutdown (ensure
+ not posted w dual engine out message)
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: R_ENG_SHUTDOWN_CAS               VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: R_ENG_SHUTDOWN_CAS               VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: R_ENG_SHUTDOWN_CAS               VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: R_ENG_SHUTDOWN_CAS               VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7861    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: NOSE STEER OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 23:03:32</FDE_Logged_Date_Time>
+ <Fault_Code>320S38        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>12</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Nosewheel steering selected OFF.
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_STEER_OFF_CAS               VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_STEER_OFF_CAS               VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_STEER_OFF_CAS               VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_STEER_OFF_CAS               VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7860    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: SERVICE DOOR OPEN
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 23:03:24</FDE_Logged_Date_Time>
+ <Fault_Code>520S04        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>11</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ One or more large service doors not closed and no
+ engine is running.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: SERVICE_DOOR_OPEN_CAS            VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: SERVICE_DOOR_OPEN_CAS            VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: SERVICE_DOOR_OPEN_CAS            VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: SERVICE_DOOR_OPEN_CAS            VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>3865    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: PARK/EMER BRAKE ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 23:03:03</FDE_Logged_Date_Time>
+ <Fault_Code>324S01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>5 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Parking Brake is set on Ground.
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (044) CAS_Word_36              VALUE: 44
+      FIELD: PARK_EMER_BRAKE_ON_STAT_CAS      VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (044) CAS_Word_36              VALUE: 44
+      FIELD: PARK_EMER_BRAKE_ON_STAT_CAS      VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (044) CAS_Word_36              VALUE: 44
+      FIELD: PARK_EMER_BRAKE_ON_STAT_CAS      VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (044) CAS_Word_36              VALUE: 44
+      FIELD: PARK_EMER_BRAKE_ON_STAT_CAS      VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>6772    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: CVS CLEAR
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:57:36</FDE_Logged_Date_Time>
+ <Fault_Code>343S02        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>DESCENT </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ When single HUD installed and Left Side Stick clear
+ switch is toggled
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (116) CAS_Word_78              VALUE: 116
+      FIELD: CVS_CLEAR_CAS                    VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (116) CAS_Word_78              VALUE: 116
+      FIELD: CVS_CLEAR_CAS                    VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (116) CAS_Word_78              VALUE: 116
+      FIELD: CVS_CLEAR_CAS                    VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (116) CAS_Word_78              VALUE: 116
+      FIELD: CVS_CLEAR_CAS                    VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7800    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: R PACK OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:29:31</FDE_Logged_Date_Time>
+ <Fault_Code>210S37        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ R PACK selected OFF and confirmed commanded OFF by the
+ IASC
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: R_PACK_OFF_CAS                   VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: R_PACK_OFF_CAS                   VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: R_PACK_OFF_CAS                   VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: R_PACK_OFF_CAS                   VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7799    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: L PACK OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:29:20</FDE_Logged_Date_Time>
+ <Fault_Code>210S36        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ L PACK selected OFF and confirmed commanded OFF by the
+ IASC
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: L_PACK_OFF_CAS                   VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: L_PACK_OFF_CAS                   VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: L_PACK_OFF_CAS                   VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: L_PACK_OFF_CAS                   VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7785    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: MAN PRESS CONTROL
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:24:09</FDE_Logged_Date_Time>
+ <Fault_Code>210S22        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>1 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ AUTO/MAN PBA has been set to the manual position.
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (013) CAS_Word_11              VALUE: 13
+      FIELD: MAN_PRESS_CONTROL_CAS            VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (013) CAS_Word_11              VALUE: 13
+      FIELD: MAN_PRESS_CONTROL_CAS            VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (013) CAS_Word_11              VALUE: 13
+      FIELD: MAN_PRESS_CONTROL_CAS            VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (013) CAS_Word_11              VALUE: 13
+      FIELD: MAN_PRESS_CONTROL_CAS            VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7880    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: L-R COWL A/ICE ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:15:46</FDE_Logged_Date_Time>
+ <Fault_Code>720S26        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>2 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Both LHS & RHS Cowl A/ICE selected to ON and confirmed
+ ON via valve position
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (053) CAS_Word_43              VALUE: 53
+      FIELD: L_R_COWL_A_ICE_ON_CAS            VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (053) CAS_Word_43              VALUE: 53
+      FIELD: L_R_COWL_A_ICE_ON_CAS            VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (053) CAS_Word_43              VALUE: 53
+      FIELD: L_R_COWL_A_ICE_ON_CAS            VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (053) CAS_Word_43              VALUE: 53
+      FIELD: L_R_COWL_A_ICE_ON_CAS            VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7878    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: L COWL A/ICE ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:15:45</FDE_Logged_Date_Time>
+ <Fault_Code>720S24        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>2 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Cowl anti-ice switches selected to ON and confirmed ON
+ via valve position
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (053) CAS_Word_43              VALUE: 53
+      FIELD: L_COWL_A_ICE_ON_CAS              VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (053) CAS_Word_43              VALUE: 53
+      FIELD: L_COWL_A_ICE_ON_CAS              VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (053) CAS_Word_43              VALUE: 53
+      FIELD: L_COWL_A_ICE_ON_CAS              VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (053) CAS_Word_43              VALUE: 53
+      FIELD: L_COWL_A_ICE_ON_CAS              VALUE:  0
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7879    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: R COWL A/ICE ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:15:45</FDE_Logged_Date_Time>
+ <Fault_Code>720S25        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>2 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Cowl anti-ice switches selected to ON and confirmed ON
+ via valve position
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (053) CAS_Word_43              VALUE: 53
+      FIELD: R_COWL_A_ICE_ON_CAS              VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (053) CAS_Word_43              VALUE: 53
+      FIELD: R_COWL_A_ICE_ON_CAS              VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (053) CAS_Word_43              VALUE: 53
+      FIELD: R_COWL_A_ICE_ON_CAS              VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (053) CAS_Word_43              VALUE: 53
+      FIELD: R_COWL_A_ICE_ON_CAS              VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4346    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: AFT FUEL XFER OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:15:10</FDE_Logged_Date_Time>
+ <Fault_Code>282S03        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>10</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that aft tank fuel transfer has been
+ inhibited under Manual mode
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: AFT_FUEL_XFER_OFF_CAS            VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: AFT_FUEL_XFER_OFF_CAS            VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: AFT_FUEL_XFER_OFF_CAS            VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: AFT_FUEL_XFER_OFF_CAS            VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4349    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: CTR TO L FUEL XFR OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:15:10</FDE_Logged_Date_Time>
+ <Fault_Code>282S06        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>10</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that center fuel transfer to Left wing has
+ been inhibited under Manual mode
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_L_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_L_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_L_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_L_FUEL_XFR_OFF_CAS        VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4350    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: CTR TO R FUEL XFR OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:15:10</FDE_Logged_Date_Time>
+ <Fault_Code>282S07        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>11</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that center fuel transfer to Right wing has
+ been inhibited under Manual mode
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_R_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_R_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_R_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_R_FUEL_XFR_OFF_CAS        VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4384    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: FUEL CG CTRL OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>25Apr2018 22:15:10</FDE_Logged_Date_Time>
+ <Fault_Code>286S01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>12</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ CG control system has been inhibited under Manual mode
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: FUEL_CG_CTRL_OFF_CAS             VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: FUEL_CG_CTRL_OFF_CAS             VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: FUEL_CG_CTRL_OFF_CAS             VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: FUEL_CG_CTRL_OFF_CAS             VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>3796    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Caution: SVS FAIL
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:10</FDE_Logged_Date_Time>
+ <Fault_Code>343C03        </Fault_Code>
+ <Number_of_Faults>1 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>21</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ SVS 1 is failed and single SVS installed.
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SVS_FAIL_CAS                     VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SVS_FAIL_CAS                     VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SVS_FAIL_CAS                     VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SVS_FAIL_CAS                     VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>4222    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   HDA is reporting an internal
+   failure of the IPC 3 - SVM
+
+   ]]>
+   </Message_Text>
+   <ATA>31-41-03</ATA>
+   <Logged_date_Time>24APR2018 04:00:51</Logged_date_Time>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+   <Fault_Code>3434005SVM    </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>2084    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Caution: ADS-B OUT FAIL
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:09</FDE_Logged_Date_Time>
+ <Fault_Code>344C01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>16</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ TDR/TSS is indicating a failure in its ADS-B
+ functionality
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: ADS_B_OUT_FAIL_CAS               VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: ADS_B_OUT_FAIL_CAS               VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: ADS_B_OUT_FAIL_CAS               VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: ADS_B_OUT_FAIL_CAS               VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4515    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Caution: FLT CTRL DIRECT ADS
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:09</FDE_Logged_Date_Time>
+ <Fault_Code>270C03        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>30</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ FLT CTRL DIRECT ADS Caution CAS message is triggered
+ when the PFCC ADS ISM monitor is active.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (063) CAS_Word_51              VALUE: 63
+      FIELD: FLT_CTRL_DIRECT_ADS_CAS          VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (063) CAS_Word_51              VALUE: 63
+      FIELD: FLT_CTRL_DIRECT_ADS_CAS          VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (063) CAS_Word_51              VALUE: 63
+      FIELD: FLT_CTRL_DIRECT_ADS_CAS          VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (063) CAS_Word_51              VALUE: 63
+      FIELD: FLT_CTRL_DIRECT_ADS_CAS          VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4274    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Caution: NOSE DOOR
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:08</FDE_Logged_Date_Time>
+ <Fault_Code>322C01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>18</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Either of the nose LDG forward doors are not closed
+ when they should be. Either door in transit for > 28
+ sec or door not closed within 4 sec after gear uplock
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_DOOR_CAS                    VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_DOOR_CAS                    VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_DOOR_CAS                    VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_DOOR_CAS                    VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4272    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Caution: L MAIN GEAR DOOR
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:07</FDE_Logged_Date_Time>
+ <Fault_Code>321C01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>18</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Either of the main LDG inner doors are not closed when
+ they should be. Either door in transit for > 28 sec or
+ door not closed within 4 sec after gear uplock or
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: L_MAIN_GEAR_DOOR_CAS             VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: L_MAIN_GEAR_DOOR_CAS             VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: L_MAIN_GEAR_DOOR_CAS             VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: L_MAIN_GEAR_DOOR_CAS             VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4273    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Caution: R MAIN GEAR DOOR
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:07</FDE_Logged_Date_Time>
+ <Fault_Code>321C02        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>18</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Either of the main LDG inner doors are not closed when
+ they should be. Either door in transit for > 28 sec or
+ door not closed within 4 sec after gear uplock or
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: R_MAIN_GEAR_DOOR_CAS             VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: R_MAIN_GEAR_DOOR_CAS             VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: R_MAIN_GEAR_DOOR_CAS             VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: R_MAIN_GEAR_DOOR_CAS             VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>5151    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Caution: EMER LIGHTS OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:06</FDE_Logged_Date_Time>
+ <Fault_Code>335C02        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>19</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ If EMER LTS switch set to OFF, this message will be
+ displayed
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: EMER_LIGHTS_OFF_CAS              VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: EMER_LIGHTS_OFF_CAS              VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: EMER_LIGHTS_OFF_CAS              VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (020) CAS_Word_16              VALUE: 20
+      FIELD: EMER_LIGHTS_OFF_CAS              VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>1822    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: INFO
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:10</FDE_Logged_Date_Time>
+ <Fault_Code>314A07        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>94</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ An unacknowledged info message is present on the INFO
+ synoptic page.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: INFO_CAS                         VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: INFO_CAS                         VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: INFO_CAS                         VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: INFO_CAS                         VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>2096    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: WXR FAIL
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:10</FDE_Logged_Date_Time>
+ <Fault_Code>344A04        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>16</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Weather Radar FAIL
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (116) CAS_Word_78              VALUE: 116
+      FIELD: WXR_FAIL_CAS                     VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (116) CAS_Word_78              VALUE: 116
+      FIELD: WXR_FAIL_CAS                     VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (116) CAS_Word_78              VALUE: 116
+      FIELD: WXR_FAIL_CAS                     VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (116) CAS_Word_78              VALUE: 116
+      FIELD: WXR_FAIL_CAS                     VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>3430    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: SMS NOT AVAILABLE
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:09</FDE_Logged_Date_Time>
+ <Fault_Code>314A12        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>17</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ SMS Not Available due to degraded position acuracy,
+ loss of required inputs or all SMS loss.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SMS_NOT_AVAILABLE_CAS            VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SMS_NOT_AVAILABLE_CAS            VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SMS_NOT_AVAILABLE_CAS            VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (115) CAS_Word_77              VALUE: 115
+      FIELD: SMS_NOT_AVAILABLE_CAS            VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7399    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: SATCOM NO SIGNAL
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:09</FDE_Logged_Date_Time>
+ <Fault_Code>231A05        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>29</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ SATCOM reporting that it is not logged on the satellit
+ network.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SATCOM_NO_SIGNAL_CAS             VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SATCOM_NO_SIGNAL_CAS             VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SATCOM_NO_SIGNAL_CAS             VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (110) CAS_Word_72              VALUE: 110
+      FIELD: SATCOM_NO_SIGNAL_CAS             VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4375    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Advisory: OUTER WING IMBALANCE
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:08</FDE_Logged_Date_Time>
+ <Fault_Code>282A10        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>12</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that a fuel quantity imbalance exists betwee
+ the left and right outer tanks of more than 350 lbs in
+ flight or 250 lbs on ground / approach configuration.
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: OUTER_WING_IMBALANCE_CAS         VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: OUTER_WING_IMBALANCE_CAS         VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: OUTER_WING_IMBALANCE_CAS         VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (056) CAS_Word_46              VALUE: 56
+      FIELD: OUTER_WING_IMBALANCE_CAS         VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>6015    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 47 FUEL TANK INERT - SYS
+ SHUTDOWN
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:12</FDE_Logged_Date_Time>
+ <Fault_Code>473N02        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>17</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Fuel Tank Inerting System inoperative due to internal
+ failure or output bus failure managed by the secure
+ shutdown of the system
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (041) Info_Word_33             VALUE: 41
+      FIELD: FTIS_SYS_SHUTDOWN_INFO           VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (041) Info_Word_33             VALUE: 41
+      FIELD: FTIS_SYS_SHUTDOWN_INFO           VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (041) Info_Word_33             VALUE: 41
+      FIELD: FTIS_SYS_SHUTDOWN_INFO           VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (041) Info_Word_33             VALUE: 41
+      FIELD: FTIS_SYS_SHUTDOWN_INFO           VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>958     </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 34 NAVIGATION - ADS 1 HEATER
+ REDUND LOSS
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+ <Fault_Code>341N26        </Fault_Code>
+ <Number_of_Faults>2 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>14</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ ADS 1 lost power heater switching capability due to
+ loss of one power input or switching circuit fail.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_1_HEATER_REDUND_LOSS_INFO    VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_1_HEATER_REDUND_LOSS_INFO    VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_1_HEATER_REDUND_LOSS_INFO    VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_1_HEATER_REDUND_LOSS_INFO    VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>959     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   ADSP1 MAIN CH REPORTS NO MFP
+   HEATER PRIMARY PWR INPUT
+
+   ]]>
+   </Message_Text>
+   <ATA>34-11-00</ATA>
+   <Logged_date_Time>24APR2018 03:14:02</Logged_date_Time>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+   <Fault_Code>3410106ADSP1  </Fault_Code>
+  </Fault_Msg>
+  <Fault_Msg>
+   <Equation_ID>968     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   ADSP1 MAIN CH REPORTS NO MFP
+   HEATER SECONDARY PWR INPUT
+
+   ]]>
+   </Message_Text>
+   <ATA>34-11-00</ATA>
+   <Logged_date_Time>24APR2018 03:14:02</Logged_date_Time>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+   <Fault_Code>3410107ADSP1  </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>1060    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 34 NAVIGATION - ADS 2 HEATER
+ REDUND LOSS
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+ <Fault_Code>341N27        </Fault_Code>
+ <Number_of_Faults>2 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>14</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ ADS 2 lost power heater switching capability due to
+ loss of one power input or switching circuit fail.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_2_HEATER_REDUND_LOSS_INFO    VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_2_HEATER_REDUND_LOSS_INFO    VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_2_HEATER_REDUND_LOSS_INFO    VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_2_HEATER_REDUND_LOSS_INFO    VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>1944    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   ADSP2 MAIN CH REPORTS NO MFP
+   HEATER SECONDARY PWR INPUT
+
+   ]]>
+   </Message_Text>
+   <ATA>34-11-00</ATA>
+   <Logged_date_Time>24APR2018 03:14:03</Logged_date_Time>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+   <Fault_Code>3410207ADSP2  </Fault_Code>
+  </Fault_Msg>
+  <Fault_Msg>
+   <Equation_ID>1061    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   ADSP2 MAIN CH REPORTS NO MFP
+   HEATER PRIMARY PWR INPUT
+
+   ]]>
+   </Message_Text>
+   <ATA>34-11-00</ATA>
+   <Logged_date_Time>24APR2018 03:14:02</Logged_date_Time>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+   <Fault_Code>3410206ADSP2  </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>1256    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 34 NAVIGATION - ADS 3 HEATER
+ REDUND LOSS
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+ <Fault_Code>341N28        </Fault_Code>
+ <Number_of_Faults>2 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>18</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ ADS 3 lost power heater switching capability due to
+ loss of one power input or switching circuit fail.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_3_HEATER_REDUND_LOSS_INFO    VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_3_HEATER_REDUND_LOSS_INFO    VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_3_HEATER_REDUND_LOSS_INFO    VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_3_HEATER_REDUND_LOSS_INFO    VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>1940    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   ADSP3 MAIN CH REPORTS NO MFP
+   HEATER PRIMARY PWR INPUT
+
+   ]]>
+   </Message_Text>
+   <ATA>34-11-00</ATA>
+   <Logged_date_Time>24APR2018 03:14:03</Logged_date_Time>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+   <Fault_Code>3410306ADSP3  </Fault_Code>
+  </Fault_Msg>
+  <Fault_Msg>
+   <Equation_ID>1943    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   ADSP3 MAIN CH REPORTS NO MFP
+   HEATER SECONDARY PWR INPUT
+
+   ]]>
+   </Message_Text>
+   <ATA>34-11-00</ATA>
+   <Logged_date_Time>24APR2018 03:14:03</Logged_date_Time>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+   <Fault_Code>3410307ADSP3  </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>1374    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 32 TIRE PRESS - NOSE TPIS
+ INOP
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+ <Fault_Code>324N51        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>20</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Harness is disconnected or failure on both left and
+ right NLG which could be either TPM or AIM or
+ combinational failure
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (025) Info_Word_21             VALUE: 25
+      FIELD: NOSE_TPIS_INOP_INFO              VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (025) Info_Word_21             VALUE: 25
+      FIELD: NOSE_TPIS_INOP_INFO              VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (025) Info_Word_21             VALUE: 25
+      FIELD: NOSE_TPIS_INOP_INFO              VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (025) Info_Word_21             VALUE: 25
+      FIELD: NOSE_TPIS_INOP_INFO              VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>1438    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 34 NAVIGATION - ADS 4 HEATER
+ REDUND LOSS
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+ <Fault_Code>341N29        </Fault_Code>
+ <Number_of_Faults>2 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>18</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Loss of power heater switching capability due to loss
+ of one power input or switching circuit fail.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_4_HEATER_REDUND_LOSS_INFO    VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_4_HEATER_REDUND_LOSS_INFO    VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_4_HEATER_REDUND_LOSS_INFO    VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (037) Info_Word_31             VALUE: 37
+      FIELD: ADS_4_HEATER_REDUND_LOSS_INFO    VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>1439    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   ADSP4 MAIN CH REPORTS NO MFP
+   HEATER PRIMARY PWR INPUT
+
+   ]]>
+   </Message_Text>
+   <ATA>34-11-00</ATA>
+   <Logged_date_Time>24APR2018 03:14:02</Logged_date_Time>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+   <Fault_Code>3410406ADSP4  </Fault_Code>
+  </Fault_Msg>
+  <Fault_Msg>
+   <Equation_ID>1440    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   ADSP4 MAIN CH REPORTS NO MFP
+   HEATER SECONDARY PWR INPUT
+
+   ]]>
+   </Message_Text>
+   <ATA>34-11-00</ATA>
+   <Logged_date_Time>24APR2018 03:14:02</Logged_date_Time>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+   <Fault_Code>3410407ADSP4  </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7352    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Info: 24 ELECTRICAL - SOFTWARE
+ MISCONFIG
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+ <Fault_Code>246N64        </Fault_Code>
+ <Number_of_Faults>2 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>17</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The EDMU contains different software than the opposite
+ EDMU or is missing a config file or one or more of its
+ subordinate LRUs' software is not seen as compatible
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: SOFTWARE_MISCONFIG_INFO          VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: SOFTWARE_MISCONFIG_INFO          VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: SOFTWARE_MISCONFIG_INFO          VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (027) Info_Word_23             VALUE: 27
+      FIELD: SOFTWARE_MISCONFIG_INFO          VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+  <Fault_Msg>
+   <Equation_ID>8149    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   EDMU 1 CONTROLLER MISSING
+   CONFIGURATION FILE
+
+   ]]>
+   </Message_Text>
+   <ATA>24-61-00</ATA>
+   <Logged_date_Time>24APR2018 04:00:51</Logged_date_Time>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+   <Fault_Code>2461185EDMU1  </Fault_Code>
+  </Fault_Msg>
+  <Fault_Msg>
+   <Equation_ID>7749    </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   EDMU 2 CONTROLLER MISSING
+   CONFIGURATION FILE
+
+   ]]>
+   </Message_Text>
+   <ATA>24-61-00</ATA>
+   <Logged_date_Time>24APR2018 04:00:51</Logged_date_Time>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+   <Fault_Code>2461134EDMU2  </Fault_Code>
+  </Fault_Msg>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>2073    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: CKPT SPKRS MUTED
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:10</FDE_Logged_Date_Time>
+ <Fault_Code>230S01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>2 </Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Cockpit Speakers are muted by pilot. CKPT SPKRS MUTED
+ push button pressed and ACP indicating that the
+ speakers are muted.
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: CKPT_SPKRS_MUTED_CAS             VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: CKPT_SPKRS_MUTED_CAS             VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: CKPT_SPKRS_MUTED_CAS             VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (117) CAS_Word_79              VALUE: 117
+      FIELD: CKPT_SPKRS_MUTED_CAS             VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>1823    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: DATA UPLOAD ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:09</FDE_Logged_Date_Time>
+ <Fault_Code>454S01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>16</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Data upload is in progress.
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_UPLOAD_ON_CAS               VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_UPLOAD_ON_CAS               VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_UPLOAD_ON_CAS               VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (114) CAS_Word_76              VALUE: 114
+      FIELD: DATA_UPLOAD_ON_CAS               VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4384    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: FUEL CG CTRL OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:09</FDE_Logged_Date_Time>
+ <Fault_Code>286S01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>33</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ CG control system has been inhibited under Manual mode
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: FUEL_CG_CTRL_OFF_CAS             VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: FUEL_CG_CTRL_OFF_CAS             VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: FUEL_CG_CTRL_OFF_CAS             VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: FUEL_CG_CTRL_OFF_CAS             VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4346    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: AFT FUEL XFER OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:08</FDE_Logged_Date_Time>
+ <Fault_Code>282S03        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>30</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that aft tank fuel transfer has been
+ inhibited under Manual mode
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: AFT_FUEL_XFER_OFF_CAS            VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: AFT_FUEL_XFER_OFF_CAS            VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: AFT_FUEL_XFER_OFF_CAS            VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: AFT_FUEL_XFER_OFF_CAS            VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4349    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: CTR TO L FUEL XFR OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:08</FDE_Logged_Date_Time>
+ <Fault_Code>282S06        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>29</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that center fuel transfer to Left wing has
+ been inhibited under Manual mode
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_L_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_L_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_L_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_L_FUEL_XFR_OFF_CAS        VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4350    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: CTR TO R FUEL XFR OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:08</FDE_Logged_Date_Time>
+ <Fault_Code>282S07        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>34</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates that center fuel transfer to Right wing has
+ been inhibited under Manual mode
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_R_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_R_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_R_FUEL_XFR_OFF_CAS        VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (060) CAS_Word_48              VALUE: 60
+      FIELD: CTR_TO_R_FUEL_XFR_OFF_CAS        VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7857    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: DOOR OPEN
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:08</FDE_Logged_Date_Time>
+ <Fault_Code>520S01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>24</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Passenger door or cargo door open with no engine
+ running
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: DOOR_OPEN_CAS                    VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: DOOR_OPEN_CAS                    VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: DOOR_OPEN_CAS                    VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: DOOR_OPEN_CAS                    VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7863    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: INT CABIN DOOR STOWED
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:08</FDE_Logged_Date_Time>
+ <Fault_Code>520S05        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>17</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The status msg is displayed when the INT CABIN switch
+ is in the stowed position (45) and the interior doors
+ are in stowed position.
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_STOWED_CAS        VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_STOWED_CAS        VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_STOWED_CAS        VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (047) CAS_Word_39              VALUE: 47
+      FIELD: INT_CABIN_DOOR_STOWED_CAS        VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7874    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: L ENG SHUTDOWN
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:08</FDE_Logged_Date_Time>
+ <Fault_Code>720S20        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>19</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates pilot commanded engine shutdown (ensure not
+ posted w dual engine out message)
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: L_ENG_SHUTDOWN_CAS               VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: L_ENG_SHUTDOWN_CAS               VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: L_ENG_SHUTDOWN_CAS               VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: L_ENG_SHUTDOWN_CAS               VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7875    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: R ENG SHUTDOWN
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:08</FDE_Logged_Date_Time>
+ <Fault_Code>720S21        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>19</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Indicates pilot commanded engine is shutdown (ensure
+ not posted w dual engine out message)
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: R_ENG_SHUTDOWN_CAS               VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: R_ENG_SHUTDOWN_CAS               VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: R_ENG_SHUTDOWN_CAS               VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (052) CAS_Word_42              VALUE: 52
+      FIELD: R_ENG_SHUTDOWN_CAS               VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7849    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: EXT AC PWR ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:07</FDE_Logged_Date_Time>
+ <Fault_Code>246S55        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>18</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Logic card has confirmed external AC contactors
+ energized and supplying buses.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (030) CAS_Word_24              VALUE: 30
+      FIELD: EXT_AC_PWR_ON_CAS                VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (030) CAS_Word_24              VALUE: 30
+      FIELD: EXT_AC_PWR_ON_CAS                VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (030) CAS_Word_24              VALUE: 30
+      FIELD: EXT_AC_PWR_ON_CAS                VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (030) CAS_Word_24              VALUE: 30
+      FIELD: EXT_AC_PWR_ON_CAS                VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7860    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: SERVICE DOOR OPEN
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:07</FDE_Logged_Date_Time>
+ <Fault_Code>520S04        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>23</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ One or more large service doors not closed and no
+ engine is running.
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: SERVICE_DOOR_OPEN_CAS            VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: SERVICE_DOOR_OPEN_CAS            VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: SERVICE_DOOR_OPEN_CAS            VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: SERVICE_DOOR_OPEN_CAS            VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7861    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: NOSE STEER OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:07</FDE_Logged_Date_Time>
+ <Fault_Code>320S38        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>25</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Nosewheel steering selected OFF.
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_STEER_OFF_CAS               VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_STEER_OFF_CAS               VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_STEER_OFF_CAS               VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (046) CAS_Word_38              VALUE: 46
+      FIELD: NOSE_STEER_OFF_CAS               VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4404    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: L WSHLD HEAT OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:06</FDE_Logged_Date_Time>
+ <Fault_Code>304S01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>19</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ left WTC switch is at OFF position and L/WTC OFF
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: L_WSHLD_HEAT_OFF_CAS             VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: L_WSHLD_HEAT_OFF_CAS             VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: L_WSHLD_HEAT_OFF_CAS             VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: L_WSHLD_HEAT_OFF_CAS             VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>4405    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: R WSHLD HEAT OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:06</FDE_Logged_Date_Time>
+ <Fault_Code>304S02        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>19</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ right WTC switch is at OFF position and R/WTC OFF
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: R_WSHLD_HEAT_OFF_CAS             VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: R_WSHLD_HEAT_OFF_CAS             VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: R_WSHLD_HEAT_OFF_CAS             VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: R_WSHLD_HEAT_OFF_CAS             VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7757    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: HYD PUMP 3B OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:06</FDE_Logged_Date_Time>
+ <Fault_Code>291S08        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>20</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The HYD PUMP 3B OFF CAS message is active when the
+ cockpit 3B switch is in the OFF position and the pump
+ 3B pressure switch is not indicating high pressure.
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_3B_OFF_CAS              VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_3B_OFF_CAS              VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_3B_OFF_CAS              VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_3B_OFF_CAS              VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7798    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: ECS MAN TEMP ON
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:06</FDE_Logged_Date_Time>
+ <Fault_Code>210S35        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>20</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ Manual mode selected and confirm
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: ECS_MAN_TEMP_ON_CAS              VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: ECS_MAN_TEMP_ON_CAS              VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: ECS_MAN_TEMP_ON_CAS              VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (014) CAS_Word_12              VALUE: 14
+      FIELD: ECS_MAN_TEMP_ON_CAS              VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7826    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: CABIN POWER OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:06</FDE_Logged_Date_Time>
+ <Fault_Code>335S03        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Not Active</Status>
+ <Occurrences>17</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ When Cabin Power PBA is selected OFF position
+
+
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: CABIN_POWER_OFF_CAS              VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: CABIN_POWER_OFF_CAS              VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: CABIN_POWER_OFF_CAS              VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (021) CAS_Word_17              VALUE: 21
+      FIELD: CABIN_POWER_OFF_CAS              VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7750    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: HYD PTU OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:05</FDE_Logged_Date_Time>
+ <Fault_Code>291S01        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>24</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The HYD PTU OFF CAS message is active when the cockpit
+ PTU switch is in the OFF position and the PTU pressure
+ switch is not indicating high pressure. This is a
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_PTU_OFF_CAS                  VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_PTU_OFF_CAS                  VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_PTU_OFF_CAS                  VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_PTU_OFF_CAS                  VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7753    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: HYD PUMP 1B OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:05</FDE_Logged_Date_Time>
+ <Fault_Code>291S04        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>24</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The HYD PUMP 1B OFF CAS message is active when the
+ cockpit 1B switch is in the OFF position and the pump
+ 1B pressure switch is not indicating high pressure.
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_1B_OFF_CAS              VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_1B_OFF_CAS              VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_1B_OFF_CAS              VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_1B_OFF_CAS              VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+<FDE>
+ <Equation_ID>7755    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Status: HYD PUMP 3A OFF
+
+
+ ]]>
+ </Message_Text>
+ <FDE_Logged_Date_Time>24Apr2018 03:14:05</FDE_Logged_Date_Time>
+ <Fault_Code>291S06        </Fault_Code>
+ <Number_of_Faults>0 </Number_of_Faults>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Status>Active    </Status>
+ <Occurrences>24</Occurrences>
+ <Flight_Number>        </Flight_Number>
+ <FDE_Description>
+ <![CDATA[
+ The HYD PUMP 3A OFF CAS message is active when the
+ cockpit 3A switch is in OFF position and the pump 3A
+ pressure switch is not indicating high pressure. This
+ ]]>
+ </FDE_Description>
+ <FDE_Data>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_3A_OFF_CAS              VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_3A_OFF_CAS              VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_3A_OFF_CAS              VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (006) CAS_Word_6               VALUE: 6
+      FIELD: HYD_PUMP_3A_OFF_CAS              VALUE:  1
+ ]]>
+ </FDE_Data>
+ <Correlated_Fault_Msgs>
+ </Correlated_Fault_Msgs>
+</FDE>
+</FDEs_Report>

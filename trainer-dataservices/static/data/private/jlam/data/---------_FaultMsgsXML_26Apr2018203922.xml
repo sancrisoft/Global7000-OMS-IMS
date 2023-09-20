@@ -1,0 +1,5697 @@
+<?xml version="1.0"?>
+<FaultMsgs_Report>
+<Report_Header>
+ <Report_Name>Fault Messages</Report_Name>
+ <Report_Date_Time>26-Apr-2018 20:39</Report_Date_Time>
+ <Aircraft_Tail_Number>---------</Aircraft_Tail_Number>
+ <Aircraft_Serial_Number>0004      </Aircraft_Serial_Number>
+ <Aircraft_Type_Number>G7000     </Aircraft_Type_Number>
+ <Current_Flight_Leg_Counter>2     </Current_Flight_Leg_Counter>
+ <Version_Number>810-0106-310    </Version_Number>
+ <Tables_Part_Number>810-0099-3B0001-12</Tables_Part_Number>
+</Report_Header>
+<Fault_Message>
+ <Equation_ID>7329    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ALT LIM FAIL / REPORTED BY IASC 2B
+
+
+ ]]>
+ </Message_Text>
+ <ATA>21-00-00</ATA>
+ <Logged_Date_Time>26Apr2018 15:32 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2100025IASC0  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: IASC 2
+    LABEL: SFY_Safety_status              VALUE: 233
+      FIELD: SDI                              VALUE:  2
+      FIELD: SFY_PRESS_SNSR_A_FAIL            VALUE:  0
+      FIELD: SFY_PRESS_SNSR_B_FAIL            VALUE:  0
+    LABEL: CPCS_Status_Word               VALUE: 270
+      FIELD: SDI                              VALUE:  3
+      FIELD: ALT_LIMITER_FAIL_INFO            VALUE:  0
+    LABEL: IASC Diagnostic Word 1         VALUE: 360
+      FIELD: SDI                              VALUE:  2
+      FIELD: CAB_PRESS_SNSR_SFY_DISAGREE      VALUE:  0
+    LABEL: IASC Diagnostic Word 1         VALUE: 360
+      FIELD: SDI                              VALUE:  3
+      FIELD: CAB_PRESS_SNSR_SFY_DISAGREE      VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>3971    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ PRINTER is powered off,
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>23-21-00</ATA>
+ <Logged_Date_Time>26Apr2018 15:32 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>20 </Occurrences>
+ <Fault_Code>2321001PRINT0 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: Config Manager
+    LABEL: CM Direct Option Data [15]     VALUE: 0
+      FIELD: RIU/CMU2 Data Link               VALUE:  0
+    LABEL: CM Direct Option Data [04]     VALUE: 0
+      FIELD: FlightDeck Printer Presnt        VALUE:  1
+  LRU: RIU 1
+    LABEL: CMU Data Link Bite Word 1      VALUE: 350
+      FIELD: Printer Activity                 VALUE:  1
+    LABEL: CMU Data Link Bite Word 1      VALUE: 350
+      FIELD: Printer Activity                 VALUE:  1
+  LRU: RIU 2
+    LABEL: CMU Data Link Bite Word 1      VALUE: 350
+      FIELD: Printer Activity                 VALUE: -
+    LABEL: CMU Data Link Bite Word 1      VALUE: 350
+      FIELD: Printer Activity                 VALUE: -
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>3174    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ RIU 1 output bus L-RIU-12 is
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>23-81-01</ATA>
+ <Logged_Date_Time>26Apr2018 15:44 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>17 </Occurrences>
+ <Fault_Code>2381019RIU1   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_75      VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z3 R4 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_75      VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z3 R4 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>243     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Advisory: DATA LINK CPDLC FAIL
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>26Apr2018 18:47:43</FDE_Logged_Date_Time>
+   <Fault_Code>230A09        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>4 </Number_of_Faults>
+   <Flight_Phase>DESCENT </Flight_Phase>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+  </FDE>
+  <FDE>
+   <Equation_ID>224     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Advisory: DATA LINK FAIL
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>26Apr2018 15:43:28</FDE_Logged_Date_Time>
+   <Fault_Code>230A08        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>4 </Number_of_Faults>
+   <Flight_Phase>CLIMB   </Flight_Phase>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>3132    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ RIU 1 output bus LA-RIU-2 is
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>23-81-01</ATA>
+ <Logged_Date_Time>26Apr2018 15:43 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>19 </Occurrences>
+ <Fault_Code>2381005RIU1   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: VHF 3
+    LABEL: Enhanced Maintenance Data      VALUE: 57
+      FIELD: A429 Port B CMU/RIU Bus Status   VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>243     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Advisory: DATA LINK CPDLC FAIL
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>26Apr2018 18:47:43</FDE_Logged_Date_Time>
+   <Fault_Code>230A09        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>4 </Number_of_Faults>
+   <Flight_Phase>DESCENT </Flight_Phase>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+  </FDE>
+  <FDE>
+   <Equation_ID>224     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Advisory: DATA LINK FAIL
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>26Apr2018 15:43:28</FDE_Logged_Date_Time>
+   <Fault_Code>230A08        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>4 </Number_of_Faults>
+   <Flight_Phase>CLIMB   </Flight_Phase>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>3172    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ RIU 1 output bus L-RIU-11 is
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>23-81-01</ATA>
+ <Logged_Date_Time>26Apr2018 15:43 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>18 </Occurrences>
+ <Fault_Code>2381018RIU1   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_59      VALUE:  1
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z2 R4 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_59      VALUE:  1
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z2 R4 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>243     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Advisory: DATA LINK CPDLC FAIL
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>26Apr2018 18:47:43</FDE_Logged_Date_Time>
+   <Fault_Code>230A09        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>4 </Number_of_Faults>
+   <Flight_Phase>DESCENT </Flight_Phase>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+  </FDE>
+  <FDE>
+   <Equation_ID>224     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Advisory: DATA LINK FAIL
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>26Apr2018 15:43:28</FDE_Logged_Date_Time>
+   <Fault_Code>230A08        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>4 </Number_of_Faults>
+   <Flight_Phase>CLIMB   </Flight_Phase>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7492    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ RIU 1 output bus L-RIU-10 is
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>23-81-01</ATA>
+ <Logged_Date_Time>26Apr2018 15:43 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>48 </Occurrences>
+ <Fault_Code>2381033RIU1   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: SSU
+    LABEL: Fault Summary Word 2           VALUE: 351
+      FIELD: CMU 1 to SDU Bus Fail            VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>3185    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ RIU 1 output bus L-RIU-CVR is
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>23-81-01</ATA>
+ <Logged_Date_Time>26Apr2018 15:43 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>20 </Occurrences>
+ <Fault_Code>2381023RIU1   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_48      VALUE:  1
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z1 R9 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>243     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Advisory: DATA LINK CPDLC FAIL
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>26Apr2018 18:47:43</FDE_Logged_Date_Time>
+   <Fault_Code>230A09        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>4 </Number_of_Faults>
+   <Flight_Phase>DESCENT </Flight_Phase>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+  </FDE>
+  <FDE>
+   <Equation_ID>224     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Advisory: DATA LINK FAIL
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>26Apr2018 15:43:28</FDE_Logged_Date_Time>
+   <Fault_Code>230A08        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>4 </Number_of_Faults>
+   <Flight_Phase>CLIMB   </Flight_Phase>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>6857    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ APU Ready To Load Circuit or Wire
+ Failure
+
+ ]]>
+ </Message_Text>
+ <ATA>24-22-00</ATA>
+ <Logged_Date_Time>26Apr2018 15:32 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2422029AGCU   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (275) BITE_ AGCU - GEN (CBITE) VALUE: 275
+      FIELD: APU_Ready_To_Load_Wire_Fail      VALUE:  1
+  LRU: EDMU 2
+    LABEL: (275) BITE_ AGCU - GEN (CBITE) VALUE: 275
+      FIELD: APU_Ready_To_Load_Wire_Fail      VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>6270    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ MAIN BATT HEATER FAILED / REPORTED
+ BY DCLOG1
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>26Apr2018 19:43 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2461051DCLOG1 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (040) SSPC_STATUS_ID_414       VALUE: 40
+      FIELD: SSPC_ID_414_CLOSED               VALUE:  1
+    LABEL: (044) SSPC_CURRENT_ID_414      VALUE: 44
+      FIELD: SSPC_ID_414_CURRENT              VALUE:  3.7500
+    LABEL: (301) MAIN_BATT_TEMPERATURE    VALUE: 301
+      FIELD: MAIN_BATT_TEMPERATURE            VALUE:  36.0000
+  LRU: EDMU 2
+    LABEL: (040) SSPC_STATUS_ID_414       VALUE: 40
+      FIELD: SSPC_ID_414_CLOSED               VALUE:  1
+    LABEL: (044) SSPC_CURRENT_ID_414      VALUE: 44
+      FIELD: SSPC_ID_414_CURRENT              VALUE:  3.7500
+    LABEL: (301) MAIN_BATT_TEMPERATURE    VALUE: 301
+      FIELD: MAIN_BATT_TEMPERATURE            VALUE:  36.0000
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>6157    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ APU BATT HEATER FAILED / REPORTED
+ BY DCLOG2
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>26Apr2018 17:59 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2461042DCLOG2 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (040) SSPC_STATUS_ID_351       VALUE: 40
+      FIELD: SSPC_ID_351_CLOSED               VALUE:  1
+    LABEL: (044) SSPC_CURRENT_ID_351      VALUE: 44
+      FIELD: SSPC_ID_351_CURRENT              VALUE:  3.8125
+    LABEL: (301) APU_BATT_TEMPERATURE     VALUE: 301
+      FIELD: APU_BATT_TEMPERATURE             VALUE:  36.0000
+  LRU: EDMU 2
+    LABEL: (040) SSPC_STATUS_ID_351       VALUE: 40
+      FIELD: SSPC_ID_351_CLOSED               VALUE:  1
+    LABEL: (044) SSPC_CURRENT_ID_351      VALUE: 44
+      FIELD: SSPC_ID_351_CURRENT              VALUE:  3.8125
+    LABEL: (301) APU_BATT_TEMPERATURE     VALUE: 301
+      FIELD: APU_BATT_TEMPERATURE             VALUE:  36.0000
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>6160    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ TRU2 TEMP SENSOR MISCOMPARE /
+ REPORTED BY DCLOG2
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>26Apr2018 15:46 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>39 </Occurrences>
+ <Fault_Code>2461045DCLOG2 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (350) DCLOG2_BITE_1            VALUE: 350
+      FIELD: DCLOG2_TRU2_TEMP_SENS_FAIL       VALUE:  1
+  LRU: EDMU 2
+    LABEL: (350) DCLOG2_BITE_1            VALUE: 350
+      FIELD: DCLOG2_TRU2_TEMP_SENS_FAIL       VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>6245    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ SFECU 2S DISCRETE FAIL
+
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>26Apr2018 15:33 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>7  </Occurrences>
+ <Fault_Code>2464041EMERLOG</Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (072) EMER_BUSBAR_AVAILABILITY VALUE: 72
+      FIELD: AC_ESS_BUSBAR_AVAIL              VALUE:  1
+      FIELD: DC1_ESS_BUSBAR_AVAIL             VALUE:  1
+    LABEL: (256) EMERLOG_AHMS_04          VALUE: 256
+      FIELD: EMERLOG_DSI_FLAP_SLAT2           VALUE:  0
+  LRU: EDMU 2
+    LABEL: (072) EMER_BUSBAR_AVAILABILITY VALUE: 72
+      FIELD: AC_ESS_BUSBAR_AVAIL              VALUE:  1
+      FIELD: DC1_ESS_BUSBAR_AVAIL             VALUE:  1
+    LABEL: (256) EMERLOG_AHMS_04          VALUE: 256
+      FIELD: EMERLOG_DSI_FLAP_SLAT2           VALUE:  0
+  LRU: SLAT FLAP CONTROL UNIT 1
+    LABEL: SFECU_Discrete_Word_1          VALUE: 270
+      FIELD: Surface_In_Motion                VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>8149    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ EDMU 1 CONTROLLER MISSING
+ CONFIGURATION FILE
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>26Apr2018 15:32 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2461185EDMU1  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (350) EDMU1_BITE_01            VALUE: 350
+      FIELD: EDMU1_GREEN_CF_FAIL              VALUE:  0
+      FIELD: EDMU1_COMPLETION_CF_FAIL         VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>197     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 24 ELECTRICAL - SOFTWARE
+   MISCONFIG
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>26Apr2018 15:32:52</FDE_Logged_Date_Time>
+   <Fault_Code>246N64        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>2 </Number_of_Faults>
+   <Flight_Phase>TAKEOFF </Flight_Phase>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7613    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ RELAY INTLK APU BLC K3 AUX
+ MISCOMPARE / REPORTED BY DCLOG2
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>26Apr2018 15:32 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2461052DCLOG2 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (350) DCLOG2_BITE_4            VALUE: 350
+      FIELD: DCLOG2_INT_LOCK_SC_AUX_FAIL      VALUE:  1
+  LRU: EDMU 2
+    LABEL: (350) DCLOG2_BITE_4            VALUE: 350
+      FIELD: DCLOG2_INT_LOCK_SC_AUX_FAIL      VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7749    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ EDMU 2 CONTROLLER MISSING
+ CONFIGURATION FILE
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>26Apr2018 15:32 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2461134EDMU2  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 2
+    LABEL: (350) EDMU2_BITE_01            VALUE: 350
+      FIELD: EDMU2_GREEN_CF_FAIL              VALUE:  0
+      FIELD: EDMU2_COMPLETION_CF_FAIL         VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>197     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 24 ELECTRICAL - SOFTWARE
+   MISCONFIG
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>26Apr2018 15:32:52</FDE_Logged_Date_Time>
+   <Fault_Code>246N64        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>2 </Number_of_Faults>
+   <Flight_Phase>TAKEOFF </Flight_Phase>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>6357    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ AC EP PR/NPR SIGNAL MISCOMPARE /
+ REPORTED BY EDMU1
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>26Apr2018 15:32 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2461063EDMU1  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (350) EDMU1_BITE_03            VALUE: 350
+      FIELD: EDMU1_EXT_AC_PR_DSCRPNCY_FAIL    VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5026    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ FSCL (A526) NOT RETRACTED BELOW
+ 300 FEET OR DURING AUTORETRACT /
+ REPORTED BY PFCC IN CONTROL
+ ]]>
+ </Message_Text>
+ <ATA>27-00-00</ATA>
+ <Logged_Date_Time>26Apr2018 18:45 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>DESCENT </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>3  </Occurrences>
+ <Fault_Code>2704005FSCL   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: Pri Flight Control Computer 1
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  0
+    LABEL: FBW CAS 2                      VALUE: 271
+      FIELD: Spoiler Dply Blw Alt Lim Msg     VALUE:  1
+  LRU: Pri Flight Control Computer 2
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  0
+    LABEL: FBW CAS 2                      VALUE: 271
+      FIELD: Spoiler Dply Blw Alt Lim Msg     VALUE:  1
+  LRU: Pri Flight Control Computer 3
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  1
+    LABEL: FBW CAS 2                      VALUE: 271
+      FIELD: Spoiler Dply Blw Alt Lim Msg     VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>241     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Caution: FLT SPLRS DEPLOYED
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>26Apr2018 18:45:24</FDE_Logged_Date_Time>
+   <Fault_Code>276C05        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>1 </Number_of_Faults>
+   <Flight_Phase>DESCENT </Flight_Phase>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>4747    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ PFCC IN CONTROL REPORTS INVALID
+ DATA FROM LGSCU B (A15)
+
+ ]]>
+ </Message_Text>
+ <ATA>27-00-00</ATA>
+ <Logged_Date_Time>26Apr2018 16:02 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>8  </Occurrences>
+ <Fault_Code>2731004EXTLRU </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: Pri Flight Control Computer 1
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  0
+    LABEL: FBW PFCC MAINT FAULTS 7        VALUE: 343
+      FIELD: RA DMC LGSCU ChB Label Fault     VALUE:  0
+      FIELD: RB DMC LGSCU ChB Label Fault     VALUE:  0
+  LRU: Pri Flight Control Computer 2
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  0
+    LABEL: FBW PFCC MAINT FAULTS 7        VALUE: 343
+      FIELD: RA DMC LGSCU ChB Label Fault     VALUE:  0
+      FIELD: RB DMC LGSCU ChB Label Fault     VALUE:  0
+  LRU: Pri Flight Control Computer 3
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  1
+    LABEL: FBW PFCC MAINT FAULTS 7        VALUE: 343
+      FIELD: RA DMC LGSCU ChB Label Fault     VALUE:  1
+      FIELD: RB DMC LGSCU ChB Label Fault     VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>4746    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ PFCC IN CONTROL REPORTS INVALID
+ DATA FROM LGSCU A (A15)
+
+ ]]>
+ </Message_Text>
+ <ATA>27-00-00</ATA>
+ <Logged_Date_Time>26Apr2018 15:54 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>10 </Occurrences>
+ <Fault_Code>2731003EXTLRU </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: Pri Flight Control Computer 1
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  0
+    LABEL: FBW PFCC MAINT FAULTS 7        VALUE: 343
+      FIELD: LA DMC LGSCU ChA Label Fault     VALUE:  0
+      FIELD: LB DMC LGSCU ChA Label Fault     VALUE:  0
+  LRU: Pri Flight Control Computer 2
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  0
+    LABEL: FBW PFCC MAINT FAULTS 7        VALUE: 343
+      FIELD: LA DMC LGSCU ChA Label Fault     VALUE:  0
+      FIELD: LB DMC LGSCU ChA Label Fault     VALUE:  0
+  LRU: Pri Flight Control Computer 3
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  1
+    LABEL: FBW PFCC MAINT FAULTS 7        VALUE: 343
+      FIELD: LA DMC LGSCU ChA Label Fault     VALUE:  1
+      FIELD: LB DMC LGSCU ChA Label Fault     VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7223    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ CAN Bus B SFECU 1F-1S failed but
+ not open or shorted
+
+ ]]>
+ </Message_Text>
+ <ATA>27-51-00</ATA>
+ <Logged_Date_Time>26Apr2018 19:24 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>4  </Occurrences>
+ <Fault_Code>2752105SFECU1F</Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: SLAT FLAP CONTROL UNIT 1
+    LABEL: SFCS Diagnostic Word 4         VALUE: 353
+      FIELD: XChan_CAN_Bus_B_Fail             VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7222    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ CAN Bus A SFECU 1F-1S failed but
+ not open or shorted
+
+ ]]>
+ </Message_Text>
+ <ATA>27-51-00</ATA>
+ <Logged_Date_Time>26Apr2018 19:24 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>4  </Occurrences>
+ <Fault_Code>2752104SFECU1F</Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: SLAT FLAP CONTROL UNIT 1
+    LABEL: SFCS Diagnostic Word 4         VALUE: 353
+      FIELD: XChan_CAN_Bus_A_Fail             VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5362    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ R FUEL CG TRANSFER PUMP FAULT /
+ Reported by FQMC
+
+ ]]>
+ </Message_Text>
+ <ATA>28-41-03</ATA>
+ <Logged_Date_Time>26Apr2018 19:21 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2822002FQMC   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_BUS_2_POWERED_GLB             VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_BUS_2_POWERED_GLB             VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_BUS_2_POWERED_GLB             VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_BUS_2_POWERED_GLB             VALUE:  1
+  LRU: FUEL QUAN MANAGEMENT COMPUTER
+    LABEL: VALVE STATES  2                VALUE: 274
+      FIELD: R CG XFR VLV CLOSED              VALUE:  1
+    LABEL: VALVE STATES  2                VALUE: 274
+      FIELD: R CG XFR VLV CLOSED              VALUE:  1
+    LABEL: FUEL COCKPIT PANEL CMD STATES  VALUE: 277
+      FIELD: WING XFR CMD PANEL R TO L        VALUE:  0
+    LABEL: FUEL COCKPIT PANEL CMD STATES  VALUE: 277
+      FIELD: WING XFR CMD PANEL R TO L        VALUE:  0
+    LABEL: FQMC Diagnostic Word 7         VALUE: 357
+      FIELD: SDI                              VALUE:  1
+      FIELD: R CG XFR PUMP FAIL               VALUE:  0
+    LABEL: FQMC Diagnostic Word 7         VALUE: 357
+      FIELD: SDI                              VALUE:  2
+      FIELD: R CG XFR PUMP FAIL               VALUE:  1
+    LABEL: FQMC Diagnostic Word 10        VALUE: 360
+      FIELD: R CG XFR VLV FAIL                VALUE:  0
+    LABEL: FQMC Diagnostic Word 10        VALUE: 360
+      FIELD: R CG XFR VLV FAIL                VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>219     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Caution: FUEL IMBALANCE
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>26Apr2018 15:33:07</FDE_Logged_Date_Time>
+   <Fault_Code>284C11        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>1 </Number_of_Faults>
+   <Flight_Phase>CLIMB   </Flight_Phase>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+  </FDE>
+  <FDE>
+   <Equation_ID>221     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Advisory: OUTER WING IMBALANCE
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>26Apr2018 15:34:11</FDE_Logged_Date_Time>
+   <Fault_Code>282A10        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>1 </Number_of_Faults>
+   <Flight_Phase>CLIMB   </Flight_Phase>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5330    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ L FRDC B FAULT / Reported by FQMC
+
+
+ ]]>
+ </Message_Text>
+ <ATA>28-41-03</ATA>
+ <Logged_Date_Time>26Apr2018 15:32 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2840062FQMC   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: FUEL QUAN MANAGEMENT COMPUTER
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: SDI                              VALUE:  1
+      FIELD: L FRDC B FAIL                    VALUE:  0
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: SDI                              VALUE:  2
+      FIELD: L FRDC B FAIL                    VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5332    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ R FRDC B FAULT / Reported by FQMC
+
+
+ ]]>
+ </Message_Text>
+ <ATA>28-41-03</ATA>
+ <Logged_Date_Time>26Apr2018 15:32 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2840064FQMC   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: FUEL QUAN MANAGEMENT COMPUTER
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: SDI                              VALUE:  1
+      FIELD: R FRDC B FAIL                    VALUE:  0
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: SDI                              VALUE:  2
+      FIELD: R FRDC B FAIL                    VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1392    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ HYD SYS 3 LO PRESS DETECTED
+
+
+ ]]>
+ </Message_Text>
+ <ATA>29-13-00</ATA>
+ <Logged_Date_Time>26Apr2018 19:29 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2913004PHSD   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_3_LO_PRESS_CAS               VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_3_LO_PRESS_CAS               VALUE:  0
+  LRU: DCM 2A-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_3_LO_PRESS_CAS               VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_3_LO_PRESS_CAS               VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>4446    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ R WTC WOW MISCOMPARE
+
+
+ ]]>
+ </Message_Text>
+ <ATA>30-41-01</ATA>
+ <Logged_Date_Time>26Apr2018 19:21 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>APPROACH</Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>3041021RWTC   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: LANDING GEAR SYSTEM CU
+    LABEL: DISCRETE_OUTPUT_STATUS_1 CHB   VALUE: 342
+      FIELD: B_MGWOW_9                        VALUE:  0
+  LRU: WINDSHIELD TEMP CONTROLLER 2
+    LABEL: SIDE WINDOW HEATER CURRENT     VALUE: 125
+      FIELD: WOW                              VALUE:  1
+      FIELD: SSM                              VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>4425    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ L WTC WOW MISCOMPARE
+
+
+ ]]>
+ </Message_Text>
+ <ATA>30-41-01</ATA>
+ <Logged_Date_Time>26Apr2018 19:21 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>APPROACH</Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>3041021LWTC   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: LANDING GEAR SYSTEM CU
+    LABEL: DISCRETE_OUTPUT_STATUS_1 CHA   VALUE: 342
+      FIELD: A_MGWOW_9                        VALUE:  0
+  LRU: WINDSHIELD TEMP CONTROLLER 1
+    LABEL: SIDE WINDOW HEATER CURRENT     VALUE: 125
+      FIELD: WOW                              VALUE:  1
+      FIELD: SSM                              VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>4222    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ HDA is reporting an internal
+ failure of the IPC 3 - SVM
+
+ ]]>
+ </Message_Text>
+ <ATA>31-41-03</ATA>
+ <Logged_Date_Time>26Apr2018 15:32 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>3434005SVM    </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: IPC 3 - SVM - HM
+    NDO: VM2 Application Faults         NDO_ID: 23
+      FIELD: VM App Fault Codes 0-255_1       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_4       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_5       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_7       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_8       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_9       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_10      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_11      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_12      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_13      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_14      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_15      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_16      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_17      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_18      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_19      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_20      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_21      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_22      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_25      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_27      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_28      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_29      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_30      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_31      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_32      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_33      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_34      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_35      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_36      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_37      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_38      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_39      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_40      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_41      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_42      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_43      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_44      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_45      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_46      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_47      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_48      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_51      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_52      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_69      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_70      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_74      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_76      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_78      VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>876     </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ DCM 2B output bus RB-DMC-13 is
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>31-42-07</ATA>
+ <Logged_Date_Time>26Apr2018 15:43 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>19 </Occurrences>
+ <Fault_Code>3142080DCM2B  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: COCKPIT VOICE RECORDER
+    LABEL: CVR Diagnostic Word 1          VALUE: 350
+      FIELD: Datalink Input Interface Fail    VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>231     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 23 COMM - CVR INOP
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>26Apr2018 15:43:59</FDE_Logged_Date_Time>
+   <Fault_Code>237N01        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>1 </Number_of_Faults>
+   <Flight_Phase>CLIMB   </Flight_Phase>
+   <Flight_Leg>0  </Flight_Leg>
+   <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1571    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ DCM 2A output bus RA-DMC-4 is
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>31-42-07</ATA>
+ <Logged_Date_Time>26Apr2018 15:32 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>3142013DCM2A  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: MKP 2
+    LABEL: MKP Diagnostics Word           VALUE: 350
+      FIELD: Receiver 1 Inactive              VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7067    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ STROBE LIGHTS ARE DISCONNECTED OR
+ FAILED
+
+ ]]>
+ </Message_Text>
+ <ATA>33-40-00</ATA>
+ <Logged_Date_Time>26Apr2018 16:07 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>2  </Occurrences>
+ <Fault_Code>3340001STROBE </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (040) SSPC_STATUS_ID_443       VALUE: 40
+      FIELD: SSPC_ID_443_CLOSED               VALUE:  1
+    LABEL: (044) SSPC_CURRENT_ID_443      VALUE: 44
+      FIELD: SSPC_ID_443_CURRENT              VALUE:  1.0000
+  LRU: EDMU 2
+    LABEL: (040) SSPC_STATUS_ID_443       VALUE: 40
+      FIELD: SSPC_ID_443_CLOSED               VALUE:  1
+    LABEL: (044) SSPC_CURRENT_ID_443      VALUE: 44
+      FIELD: SSPC_ID_443_CURRENT              VALUE:  1.0000
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7068    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ WING TIP TAXI LIGHTS ARE
+ DISCONNECTED OR FAILED
+
+ ]]>
+ </Message_Text>
+ <ATA>33-43-00</ATA>
+ <Logged_Date_Time>26Apr2018 19:21 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>APPROACH</Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>5  </Occurrences>
+ <Fault_Code>3343002WTTAXI </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DMC 2A - IOM-6000 - 1
+    LABEL: Aircraft Discrete In 33-48 Rig VALUE: 6
+      FIELD: Ltg Taxi Sel On Pole 2           VALUE:  1
+  LRU: EDMU 1
+    LABEL: (040) SSPC_STATUS_ID_329       VALUE: 40
+      FIELD: SSPC_ID_329_CLOSED               VALUE:  1
+    LABEL: (044) SSPC_CURRENT_ID_329      VALUE: 44
+      FIELD: SSPC_ID_329_CURRENT              VALUE:  1.0000
+  LRU: EDMU 2
+    LABEL: (040) SSPC_STATUS_ID_329       VALUE: 40
+      FIELD: SSPC_ID_329_CLOSED               VALUE:  1
+    LABEL: (044) SSPC_CURRENT_ID_329      VALUE: 44
+      FIELD: SSPC_ID_329_CURRENT              VALUE:  1.0000
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1940    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP3 MAIN CH REPORTS NO MFP
+ HEATER PRIMARY PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>26Apr2018 19:55 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>2  </Occurrences>
+ <Fault_Code>3410306ADSP3  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 3
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: MFP Heater Power Source 1 On     VALUE:  0
+  LRU: AFD 3
+    LABEL: (350) AFD_Diagnostics_Wd_1     VALUE: 350
+      FIELD: A429_INPUT_8_FAIL_OUT            VALUE:  0
+  LRU: AFD 4
+    LABEL: (350) AFD_Diagnostics_Wd_1     VALUE: 350
+      FIELD: A429_INPUT_8_FAIL_OUT            VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1951    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ AOA2 VANE HEATER FAILURE
+
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>26Apr2018 19:29 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>3410802ADSP24 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 2
+    LABEL: Vane Maintenance Word          VALUE: 361
+      FIELD: Vane Heater Fail                 VALUE:  1
+  LRU: ADSP 4
+    LABEL: Vane Maintenance Word          VALUE: 361
+      FIELD: Vane Heater Fail                 VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1955    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ AOA1 VANE HEATER FAILURE
+
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>26Apr2018 19:29 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>3410702ADSP13 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 1
+    LABEL: Vane Maintenance Word          VALUE: 361
+      FIELD: Vane Heater Fail                 VALUE:  1
+  LRU: ADSP 3
+    LABEL: Vane Maintenance Word          VALUE: 361
+      FIELD: Vane Heater Fail                 VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1950    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP2 MAIN CH OR ADSP4 MAIN CH
+ REPORTS MISCOMPARE WITH VANE 2
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>26Apr2018 15:32 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>2  </Occurrences>
+ <Fault_Code>3410801ADSP24 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 2
+    LABEL: ADSP Status Word 2             VALUE: 272
+      FIELD: ARINC RX 1 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 2 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 3 Input Invalid         VALUE:  0
+      FIELD: Vane/Probe AOA Miscompare        VALUE:  0
+  LRU: ADSP 4
+    LABEL: ADSP Status Word 2             VALUE: 272
+      FIELD: ARINC RX 1 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 2 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 3 Input Invalid         VALUE:  0
+      FIELD: Vane/Probe AOA Miscompare        VALUE:  0
+  LRU: LANDING GEAR SYSTEM CU
+    LABEL: WOW_STATUS                     VALUE: 275
+      FIELD: WOW                              VALUE:  0
+    LABEL: WOW_STATUS                     VALUE: 275
+      FIELD: WOW                              VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1954    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP1 MAIN CH OR ADSP3 MAIN CH
+ REPORTS MISCOMPARE WITH VANE 1
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>26Apr2018 15:32 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>2  </Occurrences>
+ <Fault_Code>3410701ADSP13 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 1
+    LABEL: ADSP Status Word 2             VALUE: 272
+      FIELD: ARINC RX 1 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 2 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 3 Input Invalid         VALUE:  0
+      FIELD: Vane/Probe AOA Miscompare        VALUE:  0
+  LRU: ADSP 3
+    LABEL: ADSP Status Word 2             VALUE: 272
+      FIELD: ARINC RX 1 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 2 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 3 Input Invalid         VALUE:  0
+      FIELD: Vane/Probe AOA Miscompare        VALUE:  0
+  LRU: LANDING GEAR SYSTEM CU
+    LABEL: WOW_STATUS                     VALUE: 275
+      FIELD: WOW                              VALUE:  0
+    LABEL: WOW_STATUS                     VALUE: 275
+      FIELD: WOW                              VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>6764    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ HDA 1 is reporting a failure or
+ misalignment of the HUD COMBINER 1
+
+ ]]>
+ </Message_Text>
+ <ATA>34-32-00</ATA>
+ <Logged_Date_Time>26Apr2018 18:51 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>3432001CMBNR1 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: IPC 3 - SVM - HM
+    NDO: VM2 Application Faults         NDO_ID: 23
+      FIELD: VM App Fault Codes 0-255_63      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_64      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_66      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_68      VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>3910    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ EVS is powered off, disconnected
+ or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>34-33-00</ATA>
+ <Logged_Date_Time>26Apr2018 15:32 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>3433001EVS    </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_46      VALUE:  1
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z1 R7 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_46      VALUE:  1
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z1 R7 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>8362    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ EDCM is powered off, disconnected
+ or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>52-00-00</ATA>
+ <Logged_Date_Time>26Apr2018 15:32 </Logged_Date_Time>
+ <Flight_Leg>0  </Flight_Leg>
+ <Flight_Leg_Counter>2     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>5250001EDCM   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_46      VALUE:  1
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z1 R7 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_46      VALUE:  1
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z1 R7 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7329    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ALT LIM FAIL / REPORTED BY IASC 2B
+
+
+ ]]>
+ </Message_Text>
+ <ATA>21-00-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:15 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>12 </Occurrences>
+ <Fault_Code>2100025IASC0  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: IASC 2
+    LABEL: SFY_Safety_status              VALUE: 233
+      FIELD: SDI                              VALUE:  2
+      FIELD: SFY_PRESS_SNSR_A_FAIL            VALUE:  0
+      FIELD: SFY_PRESS_SNSR_B_FAIL            VALUE:  0
+    LABEL: CPCS_Status_Word               VALUE: 270
+      FIELD: SDI                              VALUE:  3
+      FIELD: ALT_LIMITER_FAIL_INFO            VALUE:  0
+    LABEL: IASC Diagnostic Word 1         VALUE: 360
+      FIELD: SDI                              VALUE:  2
+      FIELD: CAB_PRESS_SNSR_SFY_DISAGREE      VALUE:  0
+    LABEL: IASC Diagnostic Word 1         VALUE: 360
+      FIELD: SDI                              VALUE:  3
+      FIELD: CAB_PRESS_SNSR_SFY_DISAGREE      VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>3197    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ RIU 1 output bus L-RIU-PRINTER is
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>23-81-01</ATA>
+ <Logged_Date_Time>25Apr2018 23:00 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2381024RIU1   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: Config Manager
+    LABEL: CM Direct Option Data [04]     VALUE: 0
+      FIELD: FlightDeck Printer Presnt        VALUE:  1
+  LRU: PRINTER
+    LABEL: Printer Status                 VALUE: 350
+      FIELD: ARINC IN 4                       VALUE:  1
+  LRU: RIU 1
+    LABEL: Data Link Status Word 1        VALUE: 270
+      FIELD: MU Active                        VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>139     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Advisory: DATA LINK FAIL
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>25Apr2018 22:36:49</FDE_Logged_Date_Time>
+   <Fault_Code>230A08        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>3 </Number_of_Faults>
+   <Flight_Phase>CRUISE  </Flight_Phase>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>3172    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ RIU 1 output bus L-RIU-11 is
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>23-81-01</ATA>
+ <Logged_Date_Time>25Apr2018 22:37 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>6  </Occurrences>
+ <Fault_Code>2381018RIU1   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_59      VALUE:  1
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z2 R4 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_59      VALUE:  1
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z2 R4 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>139     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Advisory: DATA LINK FAIL
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>25Apr2018 22:36:49</FDE_Logged_Date_Time>
+   <Fault_Code>230A08        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>3 </Number_of_Faults>
+   <Flight_Phase>CRUISE  </Flight_Phase>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7492    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ RIU 1 output bus L-RIU-10 is
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>23-81-01</ATA>
+ <Logged_Date_Time>25Apr2018 22:36 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>10 </Occurrences>
+ <Fault_Code>2381033RIU1   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: SSU
+    LABEL: Fault Summary Word 2           VALUE: 351
+      FIELD: CMU 1 to SDU Bus Fail            VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>3174    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ RIU 1 output bus L-RIU-12 is
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>23-81-01</ATA>
+ <Logged_Date_Time>25Apr2018 22:36 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>8  </Occurrences>
+ <Fault_Code>2381019RIU1   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_75      VALUE:  1
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z3 R4 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_75      VALUE:  1
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z3 R4 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>139     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Advisory: DATA LINK FAIL
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>25Apr2018 22:36:49</FDE_Logged_Date_Time>
+   <Fault_Code>230A08        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>3 </Number_of_Faults>
+   <Flight_Phase>CRUISE  </Flight_Phase>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>6210    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ EMERLOG RAT LOGIC FAILED
+
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:59 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>APPROACH</Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2464015EMERLOG</Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (350) EMERLOG_BITE_2           VALUE: 350
+      FIELD: EMERLOG_RAT_LOGIC_FAIL           VALUE:  1
+  LRU: EDMU 2
+    LABEL: (350) EMERLOG_BITE_2           VALUE: 350
+      FIELD: EMERLOG_RAT_LOGIC_FAIL           VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>156     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 24 ELECTRICAL - RAT DEPLOY
+   LOGIC INOP
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>25Apr2018 22:59:13</FDE_Logged_Date_Time>
+   <Fault_Code>242N15        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>1 </Number_of_Faults>
+   <Flight_Phase>APPROACH</Flight_Phase>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>6160    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ TRU2 TEMP SENSOR MISCOMPARE /
+ REPORTED BY DCLOG2
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:38 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>2  </Occurrences>
+ <Fault_Code>2461045DCLOG2 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (350) DCLOG2_BITE_1            VALUE: 350
+      FIELD: DCLOG2_TRU2_TEMP_SENS_FAIL       VALUE:  1
+  LRU: EDMU 2
+    LABEL: (350) DCLOG2_BITE_1            VALUE: 350
+      FIELD: DCLOG2_TRU2_TEMP_SENS_FAIL       VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>6245    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ SFECU 2S DISCRETE FAIL
+
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:15 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>9  </Occurrences>
+ <Fault_Code>2464041EMERLOG</Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (072) EMER_BUSBAR_AVAILABILITY VALUE: 72
+      FIELD: AC_ESS_BUSBAR_AVAIL              VALUE:  1
+      FIELD: DC1_ESS_BUSBAR_AVAIL             VALUE:  1
+    LABEL: (256) EMERLOG_AHMS_04          VALUE: 256
+      FIELD: EMERLOG_DSI_FLAP_SLAT2           VALUE:  0
+  LRU: EDMU 2
+    LABEL: (072) EMER_BUSBAR_AVAILABILITY VALUE: 72
+      FIELD: AC_ESS_BUSBAR_AVAIL              VALUE:  1
+      FIELD: DC1_ESS_BUSBAR_AVAIL             VALUE:  1
+    LABEL: (256) EMERLOG_AHMS_04          VALUE: 256
+      FIELD: EMERLOG_DSI_FLAP_SLAT2           VALUE:  0
+  LRU: SLAT FLAP CONTROL UNIT 1
+    LABEL: SFECU_Discrete_Word_1          VALUE: 270
+      FIELD: Surface_In_Motion                VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7613    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ RELAY INTLK APU BLC K3 AUX
+ MISCOMPARE / REPORTED BY DCLOG2
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:15 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2461052DCLOG2 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (350) DCLOG2_BITE_4            VALUE: 350
+      FIELD: DCLOG2_INT_LOCK_SC_AUX_FAIL      VALUE:  1
+  LRU: EDMU 2
+    LABEL: (350) DCLOG2_BITE_4            VALUE: 350
+      FIELD: DCLOG2_INT_LOCK_SC_AUX_FAIL      VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>8149    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ EDMU 1 CONTROLLER MISSING
+ CONFIGURATION FILE
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:15 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2461185EDMU1  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (350) EDMU1_BITE_01            VALUE: 350
+      FIELD: EDMU1_GREEN_CF_FAIL              VALUE:  0
+      FIELD: EDMU1_COMPLETION_CF_FAIL         VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>102     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 24 ELECTRICAL - SOFTWARE
+   MISCONFIG
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>25Apr2018 22:15:10</FDE_Logged_Date_Time>
+   <Fault_Code>246N64        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>2 </Number_of_Faults>
+   <Flight_Phase>TAKEOFF </Flight_Phase>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7749    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ EDMU 2 CONTROLLER MISSING
+ CONFIGURATION FILE
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:15 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2461134EDMU2  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 2
+    LABEL: (350) EDMU2_BITE_01            VALUE: 350
+      FIELD: EDMU2_GREEN_CF_FAIL              VALUE:  0
+      FIELD: EDMU2_COMPLETION_CF_FAIL         VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>102     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 24 ELECTRICAL - SOFTWARE
+   MISCONFIG
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>25Apr2018 22:15:10</FDE_Logged_Date_Time>
+   <Fault_Code>246N64        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>2 </Number_of_Faults>
+   <Flight_Phase>TAKEOFF </Flight_Phase>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>6357    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ AC EP PR/NPR SIGNAL MISCOMPARE /
+ REPORTED BY EDMU1
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:15 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2461063EDMU1  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (350) EDMU1_BITE_03            VALUE: 350
+      FIELD: EDMU1_EXT_AC_PR_DSCRPNCY_FAIL    VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5026    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ FSCL (A526) NOT RETRACTED BELOW
+ 300 FEET OR DURING AUTORETRACT /
+ REPORTED BY PFCC IN CONTROL
+ ]]>
+ </Message_Text>
+ <ATA>27-00-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:51 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>DESCENT </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2704005FSCL   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: Pri Flight Control Computer 1
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  0
+    LABEL: FBW CAS 2                      VALUE: 271
+      FIELD: Spoiler Dply Blw Alt Lim Msg     VALUE:  1
+  LRU: Pri Flight Control Computer 2
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  0
+    LABEL: FBW CAS 2                      VALUE: 271
+      FIELD: Spoiler Dply Blw Alt Lim Msg     VALUE:  1
+  LRU: Pri Flight Control Computer 3
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  1
+    LABEL: FBW CAS 2                      VALUE: 271
+      FIELD: Spoiler Dply Blw Alt Lim Msg     VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>149     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Caution: FLT SPLRS DEPLOYED
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>25Apr2018 22:51:36</FDE_Logged_Date_Time>
+   <Fault_Code>276C05        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>1 </Number_of_Faults>
+   <Flight_Phase>DESCENT </Flight_Phase>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>4746    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ PFCC IN CONTROL REPORTS INVALID
+ DATA FROM LGSCU A (A15)
+
+ ]]>
+ </Message_Text>
+ <ATA>27-00-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:29 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>20 </Occurrences>
+ <Fault_Code>2731003EXTLRU </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: Pri Flight Control Computer 1
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  0
+    LABEL: FBW PFCC MAINT FAULTS 7        VALUE: 343
+      FIELD: LA DMC LGSCU ChA Label Fault     VALUE:  0
+      FIELD: LB DMC LGSCU ChA Label Fault     VALUE:  0
+  LRU: Pri Flight Control Computer 2
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  0
+    LABEL: FBW PFCC MAINT FAULTS 7        VALUE: 343
+      FIELD: LA DMC LGSCU ChA Label Fault     VALUE:  0
+      FIELD: LB DMC LGSCU ChA Label Fault     VALUE:  0
+  LRU: Pri Flight Control Computer 3
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  1
+    LABEL: FBW PFCC MAINT FAULTS 7        VALUE: 343
+      FIELD: LA DMC LGSCU ChA Label Fault     VALUE:  0
+      FIELD: LB DMC LGSCU ChA Label Fault     VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5291    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ CTR FTCS SNSR OUT OF RANGE /
+ Reported by FQMC
+
+ ]]>
+ </Message_Text>
+ <ATA>28-41-03</ATA>
+ <Logged_Date_Time>25Apr2018 22:16 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>CLIMB   </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>2  </Occurrences>
+ <Fault_Code>2840042FQMC   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_ESS_BUS_2_POWERED_GLB         VALUE:  1
+      FIELD: DC_MAIN_BATT_BUS_POWERED_GLB     VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_ESS_BUS_2_POWERED_GLB         VALUE:  1
+      FIELD: DC_MAIN_BATT_BUS_POWERED_GLB     VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_ESS_BUS_2_POWERED_GLB         VALUE:  1
+      FIELD: DC_MAIN_BATT_BUS_POWERED_GLB     VALUE:  1
+  LRU: DCM 2B-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_ESS_BUS_2_POWERED_GLB         VALUE:  1
+      FIELD: DC_MAIN_BATT_BUS_POWERED_GLB     VALUE:  1
+  LRU: FUEL QUAN MANAGEMENT COMPUTER
+    LABEL: VIRTUAL REFUEL PANEL CMD 2     VALUE: 341
+      FIELD: RDP POWERED                      VALUE:  0
+    LABEL: VIRTUAL REFUEL PANEL CMD 2     VALUE: 341
+      FIELD: RDP POWERED                      VALUE:  0
+    LABEL: FQMC Diagnostic Word 3         VALUE: 352
+      FIELD: SDI                              VALUE:  1
+      FIELD: CTR FTCS DENS FAIL               VALUE:  1
+      FIELD: CTR FTCS FTS FAIL                VALUE:  0
+      FIELD: CTR FTCS CIC FAIL                VALUE:  0
+    LABEL: FQMC Diagnostic Word 3         VALUE: 352
+      FIELD: SDI                              VALUE:  2
+      FIELD: CTR FTCS DENS FAIL               VALUE:  0
+      FIELD: CTR FTCS FTS FAIL                VALUE:  0
+      FIELD: CTR FTCS CIC FAIL                VALUE:  0
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: R FRDC A FAIL                    VALUE:  0
+      FIELD: R FRDC B FAIL                    VALUE:  0
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: R FRDC A FAIL                    VALUE:  0
+      FIELD: R FRDC B FAIL                    VALUE:  1
+    LABEL: FQMC Diagnostic Word 6         VALUE: 355
+      FIELD: R FRDC A COM FAIL                VALUE:  0
+      FIELD: R FRDC B COM FAIL                VALUE:  0
+      FIELD: R FRDC A CONNECTION FAIL         VALUE:  0
+      FIELD: R FRDC B CONNECTION FAIL         VALUE:  0
+    LABEL: FQMC Diagnostic Word 6         VALUE: 355
+      FIELD: R FRDC A COM FAIL                VALUE:  0
+      FIELD: R FRDC B COM FAIL                VALUE:  0
+      FIELD: R FRDC A CONNECTION FAIL         VALUE:  0
+      FIELD: R FRDC B CONNECTION FAIL         VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5330    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ L FRDC B FAULT / Reported by FQMC
+
+
+ ]]>
+ </Message_Text>
+ <ATA>28-41-03</ATA>
+ <Logged_Date_Time>25Apr2018 22:15 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>11 </Occurrences>
+ <Fault_Code>2840062FQMC   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: FUEL QUAN MANAGEMENT COMPUTER
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: SDI                              VALUE:  1
+      FIELD: L FRDC B FAIL                    VALUE:  0
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: SDI                              VALUE:  2
+      FIELD: L FRDC B FAIL                    VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5332    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ R FRDC B FAULT / Reported by FQMC
+
+
+ ]]>
+ </Message_Text>
+ <ATA>28-41-03</ATA>
+ <Logged_Date_Time>25Apr2018 22:15 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>11 </Occurrences>
+ <Fault_Code>2840064FQMC   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: FUEL QUAN MANAGEMENT COMPUTER
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: SDI                              VALUE:  1
+      FIELD: R FRDC B FAIL                    VALUE:  0
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: SDI                              VALUE:  2
+      FIELD: R FRDC B FAIL                    VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1392    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ HYD SYS 3 LO PRESS DETECTED
+
+
+ ]]>
+ </Message_Text>
+ <ATA>29-13-00</ATA>
+ <Logged_Date_Time>25Apr2018 23:04 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2913004PHSD   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_3_LO_PRESS_CAS               VALUE:  0
+  LRU: DCM 1B-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_3_LO_PRESS_CAS               VALUE:  1
+  LRU: DCM 2A-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_3_LO_PRESS_CAS               VALUE:  0
+  LRU: DCM 2B-EICAS
+    LABEL: (005) CAS_Word_5               VALUE: 5
+      FIELD: HYD_3_LO_PRESS_CAS               VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>169     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Caution: HYD 3 LO PRESS
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>25Apr2018 23:04:09</FDE_Logged_Date_Time>
+   <Fault_Code>293C02        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>1 </Number_of_Faults>
+   <Flight_Phase>TAXI    </Flight_Phase>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>4425    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ L WTC WOW MISCOMPARE
+
+
+ ]]>
+ </Message_Text>
+ <ATA>30-41-01</ATA>
+ <Logged_Date_Time>25Apr2018 22:58 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>APPROACH</Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>2  </Occurrences>
+ <Fault_Code>3041021LWTC   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: LANDING GEAR SYSTEM CU
+    LABEL: DISCRETE_OUTPUT_STATUS_1 CHA   VALUE: 342
+      FIELD: A_MGWOW_9                        VALUE:  1
+  LRU: WINDSHIELD TEMP CONTROLLER 1
+    LABEL: SIDE WINDOW HEATER CURRENT     VALUE: 125
+      FIELD: WOW                              VALUE:  0
+      FIELD: SSM                              VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>4446    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ R WTC WOW MISCOMPARE
+
+
+ ]]>
+ </Message_Text>
+ <ATA>30-41-01</ATA>
+ <Logged_Date_Time>25Apr2018 22:58 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>APPROACH</Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>3041021RWTC   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: LANDING GEAR SYSTEM CU
+    LABEL: DISCRETE_OUTPUT_STATUS_1 CHB   VALUE: 342
+      FIELD: B_MGWOW_9                        VALUE:  1
+  LRU: WINDSHIELD TEMP CONTROLLER 2
+    LABEL: SIDE WINDOW HEATER CURRENT     VALUE: 125
+      FIELD: WOW                              VALUE:  1
+      FIELD: SSM                              VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>4222    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ HDA is reporting an internal
+ failure of the IPC 3 - SVM
+
+ ]]>
+ </Message_Text>
+ <ATA>31-41-03</ATA>
+ <Logged_Date_Time>25Apr2018 22:15 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>3434005SVM    </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: IPC 3 - SVM - HM
+    NDO: VM2 Application Faults         NDO_ID: 23
+      FIELD: VM App Fault Codes 0-255_1       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_4       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_5       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_7       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_8       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_9       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_10      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_11      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_12      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_13      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_14      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_15      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_16      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_17      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_18      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_19      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_20      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_21      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_22      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_25      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_27      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_28      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_29      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_30      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_31      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_32      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_33      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_34      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_35      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_36      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_37      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_38      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_39      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_40      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_41      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_42      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_43      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_44      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_45      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_46      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_47      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_48      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_51      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_52      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_69      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_70      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_74      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_76      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_78      VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>876     </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ DCM 2B output bus RB-DMC-13 is
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>31-42-07</ATA>
+ <Logged_Date_Time>25Apr2018 22:36 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>CRUISE  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>5  </Occurrences>
+ <Fault_Code>3142080DCM2B  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: COCKPIT VOICE RECORDER
+    LABEL: CVR Diagnostic Word 1          VALUE: 350
+      FIELD: Datalink Input Interface Fail    VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>145     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 23 COMM - CVR INOP
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>25Apr2018 22:37:19</FDE_Logged_Date_Time>
+   <Fault_Code>237N01        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>1 </Number_of_Faults>
+   <Flight_Phase>CRUISE  </Flight_Phase>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1571    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ DCM 2A output bus RA-DMC-4 is
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>31-42-07</ATA>
+ <Logged_Date_Time>25Apr2018 22:15 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>3142013DCM2A  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: MKP 2
+    LABEL: MKP Diagnostics Word           VALUE: 350
+      FIELD: Receiver 1 Inactive              VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>4267    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ Internal Fault/Reported by LGSCU
+ CHB
+
+ ]]>
+ </Message_Text>
+ <ATA>32-31-01</ATA>
+ <Logged_Date_Time>25Apr2018 23:02 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>2  </Occurrences>
+ <Fault_Code>3231106LGSCUB </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: LANDING GEAR SYSTEM CU
+    LABEL: LGSCU_FAULT_1                  VALUE: 323
+      FIELD: 5V_Ref_External_ADC_Fault        VALUE:  0
+      FIELD: 12V_Plus_Pwr_Supply_Fault        VALUE:  0
+      FIELD: 12V_Minus_Pwr_Supply_Fault       VALUE:  0
+      FIELD: Over_Voltage_Det_Circuit_Fail    VALUE:  0
+      FIELD: Solenoid_Drv_Pwr_Supply_Fault    VALUE:  0
+      FIELD: Internal_28VDC_Low_Fail          VALUE:  0
+      FIELD: Spare_DOC_DOV_RDL_LRU_Fault      VALUE:  0
+    LABEL: LGSCU_FAULT_2                  VALUE: 324
+      FIELD: Comm_SW_Int_Flash_Fault          VALUE:  0
+      FIELD: NVM_Rig_Zone_Fault               VALUE:  0
+      FIELD: NVM_Customer_Zone_Fault          VALUE:  0
+      FIELD: NVM_Fault_Zone_Fault             VALUE:  0
+      FIELD: Cross_Ch_Disc_Input_SC Fault     VALUE:  0
+      FIELD: Cross_Ch_Disc_Input_LGC Fault    VALUE:  0
+      FIELD: PBIT_Fault                       VALUE:  0
+      FIELD: CBIT_CP_Fault                    VALUE:  1
+      FIELD: CBIT_MP_Fault                    VALUE:  0
+    LABEL: LGSCU_FAULT_3                  VALUE: 325
+      FIELD: Gear_Up_Sol_2_Drv_Circ_Fail      VALUE:  0
+      FIELD: Gear_Dn_Sol_2_Drv_Circ_Fail      VALUE:  0
+      FIELD: Gear_Up_Sol_3_Drv_Circ_Fail      VALUE:  0
+      FIELD: Gear_Dn_Sol_3_Drv_Circ_Fail      VALUE:  0
+      FIELD: SBCV_Drive_Circuit_Fail          VALUE:  0
+      FIELD: Door_Open_Drive_Circuit_Fail     VALUE:  0
+      FIELD: Door_Close_Drive_Circuit_Fail    VALUE:  0
+      FIELD: SSV_Drive_Circuit_Fail           VALUE:  0
+      FIELD: EHSV_Drive_Circuit_Fail          VALUE:  0
+      FIELD: MP_Data_Frame_Timeout_Fail       VALUE:  0
+      FIELD: MP_Data_Frame_Count_Fail         VALUE:  0
+      FIELD: MP_Data_Frame_CRC_Fail           VALUE:  0
+      FIELD: CP_Data_Frame_Timeout_Fail       VALUE:  0
+      FIELD: CP_Data_Frame_Count_Fail         VALUE:  0
+      FIELD: CP_Data_Frame_CRC_Fail           VALUE:  0
+    LABEL: LGSCU Diagnostic Word 1        VALUE: 350
+      FIELD: LGSCU_Fail                       VALUE:  1
+    LABEL: LGSCU_B Diagnostic Word 2      VALUE: 351
+      FIELD: PBIT_CP_Fault                    VALUE:  0
+      FIELD: PBIT_MP_Fault                    VALUE:  0
+    LABEL: LGSCU Diagnostic Word 5        VALUE: 354
+      FIELD: LGSCU_LGC_Fail                   VALUE:  0
+      FIELD: LGSCU_LGC_Fault                  VALUE:  0
+      FIELD: LGSCU_SC_Fail                    VALUE:  1
+      FIELD: LGSCU_SC_Fault                   VALUE:  0
+    LABEL: LGC_PROX_ACQ_FAULT CHB         VALUE: 362
+      FIELD: NG_Downlock_Prox_Acq_Fault       VALUE:  0
+      FIELD: NG_WOFFW_Prox_Acq_Fault          VALUE:  0
+      FIELD: NG_Uplock_Prox_Acq_Fault         VALUE:  0
+      FIELD: ND_Open_Prox_Acq_Fault           VALUE:  0
+      FIELD: ND_Uplock_Prox_Acq_Fault         VALUE:  0
+      FIELD: LG_Uplock_Prox_Acq_Fault         VALUE:  0
+      FIELD: LG_Downlock_Prox_Acq_Fault       VALUE:  0
+      FIELD: LG_WOW_Prox_Acq_Fault            VALUE:  0
+      FIELD: LD_Open_Prox_Acq_Fault           VALUE:  0
+      FIELD: LD_Uplock_Prox_Acq_Fault         VALUE:  0
+      FIELD: RG_Uplock_Prox_Acq_Fault         VALUE:  0
+      FIELD: RG_Downlock_Prox_Acq_Fault       VALUE:  0
+      FIELD: RG_WOW_Prox_Acq_Fault            VALUE:  0
+      FIELD: RD_Open_Prox_Acq_Fault           VALUE:  0
+      FIELD: RD_Uplock_Prox_Acq_Fault         VALUE:  0
+      FIELD: Spare                            VALUE:  0
+      FIELD: Spare                            VALUE:  0
+    LABEL: AC_PROX_ACQ_FAULT CHB          VALUE: 363
+      FIELD: Emer_Exit_Prox_Acq_Fault         VALUE:  0
+      FIELD: R_Gnd_Spoiler_Prox_Acq_Fault     VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>161     </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 32 GEAR - STEERING CONTROL
+   SYS REDUND LOSS
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>25Apr2018 23:02:12</FDE_Logged_Date_Time>
+   <Fault_Code>325N07        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>1 </Number_of_Faults>
+   <Flight_Phase>TAXI    </Flight_Phase>
+   <Flight_Leg>-1 </Flight_Leg>
+   <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7068    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ WING TIP TAXI LIGHTS ARE
+ DISCONNECTED OR FAILED
+
+ ]]>
+ </Message_Text>
+ <ATA>33-43-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:58 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>APPROACH</Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>22 </Occurrences>
+ <Fault_Code>3343002WTTAXI </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DMC 2A - IOM-6000 - 1
+    LABEL: Aircraft Discrete In 33-48 Rig VALUE: 6
+      FIELD: Ltg Taxi Sel On Pole 2           VALUE:  1
+  LRU: EDMU 1
+    LABEL: (040) SSPC_STATUS_ID_329       VALUE: 40
+      FIELD: SSPC_ID_329_CLOSED               VALUE:  1
+    LABEL: (044) SSPC_CURRENT_ID_329      VALUE: 44
+      FIELD: SSPC_ID_329_CURRENT              VALUE:  1.0000
+  LRU: EDMU 2
+    LABEL: (040) SSPC_STATUS_ID_329       VALUE: 40
+      FIELD: SSPC_ID_329_CLOSED               VALUE:  1
+    LABEL: (044) SSPC_CURRENT_ID_329      VALUE: 44
+      FIELD: SSPC_ID_329_CURRENT              VALUE:  1.0000
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>968     </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP1 MAIN CH REPORTS NO MFP
+ HEATER SECONDARY PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>25Apr2018 23:19 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>8  </Occurrences>
+ <Fault_Code>3410107ADSP1  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 1
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: MFP Heater Power Source 2 On     VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>959     </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP1 MAIN CH REPORTS NO MFP
+ HEATER PRIMARY PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>25Apr2018 23:19 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>8  </Occurrences>
+ <Fault_Code>3410106ADSP1  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 1
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: MFP Heater Power Source 1 On     VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1451    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP4 MAIN CH REPORTS NO TAT
+ HEATER PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>25Apr2018 23:18 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>7  </Occurrences>
+ <Fault_Code>3410413ADSP4  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 4
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: TAT Heater Power On              VALUE:  0
+  LRU: AFD 3
+    LABEL: (352) AFD_Diagnostics_Wd_3     VALUE: 352
+      FIELD: A429_INPUT_15_FAIL_OUT           VALUE:  0
+  LRU: AFD 4
+    LABEL: (352) AFD_Diagnostics_Wd_3     VALUE: 352
+      FIELD: A429_INPUT_15_FAIL_OUT           VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1422    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP3 MAIN CH REPORTS NO TAT
+ HEATER PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>25Apr2018 23:18 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>7  </Occurrences>
+ <Fault_Code>3410313ADSP3  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 3
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: TAT Heater Power On              VALUE:  0
+  LRU: AFD 3
+    LABEL: (350) AFD_Diagnostics_Wd_1     VALUE: 350
+      FIELD: A429_INPUT_8_FAIL_OUT            VALUE:  0
+  LRU: AFD 4
+    LABEL: (350) AFD_Diagnostics_Wd_1     VALUE: 350
+      FIELD: A429_INPUT_8_FAIL_OUT            VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1439    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP4 MAIN CH REPORTS NO MFP
+ HEATER PRIMARY PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>25Apr2018 23:17 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>8  </Occurrences>
+ <Fault_Code>3410406ADSP4  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 4
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: MFP Heater Power Source 1 On     VALUE:  0
+  LRU: AFD 3
+    LABEL: (352) AFD_Diagnostics_Wd_3     VALUE: 352
+      FIELD: A429_INPUT_15_FAIL_OUT           VALUE:  0
+  LRU: AFD 4
+    LABEL: (352) AFD_Diagnostics_Wd_3     VALUE: 352
+      FIELD: A429_INPUT_15_FAIL_OUT           VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1940    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP3 MAIN CH REPORTS NO MFP
+ HEATER PRIMARY PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>25Apr2018 23:17 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>8  </Occurrences>
+ <Fault_Code>3410306ADSP3  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 3
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: MFP Heater Power Source 1 On     VALUE:  0
+  LRU: AFD 3
+    LABEL: (350) AFD_Diagnostics_Wd_1     VALUE: 350
+      FIELD: A429_INPUT_8_FAIL_OUT            VALUE:  0
+  LRU: AFD 4
+    LABEL: (350) AFD_Diagnostics_Wd_1     VALUE: 350
+      FIELD: A429_INPUT_8_FAIL_OUT            VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1943    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP3 MAIN CH REPORTS NO MFP
+ HEATER SECONDARY PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>25Apr2018 23:17 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>8  </Occurrences>
+ <Fault_Code>3410307ADSP3  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 3
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: MFP Heater Power Source 2 On     VALUE:  0
+  LRU: AFD 3
+    LABEL: (350) AFD_Diagnostics_Wd_1     VALUE: 350
+      FIELD: A429_INPUT_8_FAIL_OUT            VALUE:  0
+  LRU: AFD 4
+    LABEL: (350) AFD_Diagnostics_Wd_1     VALUE: 350
+      FIELD: A429_INPUT_8_FAIL_OUT            VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1440    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP4 MAIN CH REPORTS NO MFP
+ HEATER SECONDARY PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>25Apr2018 23:17 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>8  </Occurrences>
+ <Fault_Code>3410407ADSP4  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 4
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: MFP Heater Power Source 2 On     VALUE:  0
+  LRU: AFD 3
+    LABEL: (352) AFD_Diagnostics_Wd_3     VALUE: 352
+      FIELD: A429_INPUT_15_FAIL_OUT           VALUE:  0
+  LRU: AFD 4
+    LABEL: (352) AFD_Diagnostics_Wd_3     VALUE: 352
+      FIELD: A429_INPUT_15_FAIL_OUT           VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1951    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ AOA2 VANE HEATER FAILURE
+
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>25Apr2018 23:04 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>8  </Occurrences>
+ <Fault_Code>3410802ADSP24 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 2
+    LABEL: Vane Maintenance Word          VALUE: 361
+      FIELD: Vane Heater Fail                 VALUE:  1
+  LRU: ADSP 4
+    LABEL: Vane Maintenance Word          VALUE: 361
+      FIELD: Vane Heater Fail                 VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1955    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ AOA1 VANE HEATER FAILURE
+
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>25Apr2018 23:04 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>8  </Occurrences>
+ <Fault_Code>3410702ADSP13 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 1
+    LABEL: Vane Maintenance Word          VALUE: 361
+      FIELD: Vane Heater Fail                 VALUE:  1
+  LRU: ADSP 3
+    LABEL: Vane Maintenance Word          VALUE: 361
+      FIELD: Vane Heater Fail                 VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1950    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP2 MAIN CH OR ADSP4 MAIN CH
+ REPORTS MISCOMPARE WITH VANE 2
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:15 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>3  </Occurrences>
+ <Fault_Code>3410801ADSP24 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 2
+    LABEL: ADSP Status Word 2             VALUE: 272
+      FIELD: ARINC RX 1 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 2 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 3 Input Invalid         VALUE:  0
+      FIELD: Vane/Probe AOA Miscompare        VALUE:  0
+  LRU: ADSP 4
+    LABEL: ADSP Status Word 2             VALUE: 272
+      FIELD: ARINC RX 1 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 2 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 3 Input Invalid         VALUE:  0
+      FIELD: Vane/Probe AOA Miscompare        VALUE:  0
+  LRU: LANDING GEAR SYSTEM CU
+    LABEL: WOW_STATUS                     VALUE: 275
+      FIELD: WOW                              VALUE:  0
+    LABEL: WOW_STATUS                     VALUE: 275
+      FIELD: WOW                              VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1954    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP1 MAIN CH OR ADSP3 MAIN CH
+ REPORTS MISCOMPARE WITH VANE 1
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:15 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>3  </Occurrences>
+ <Fault_Code>3410701ADSP13 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 1
+    LABEL: ADSP Status Word 2             VALUE: 272
+      FIELD: ARINC RX 1 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 2 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 3 Input Invalid         VALUE:  0
+      FIELD: Vane/Probe AOA Miscompare        VALUE:  0
+  LRU: ADSP 3
+    LABEL: ADSP Status Word 2             VALUE: 272
+      FIELD: ARINC RX 1 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 2 Input  Invalid        VALUE:  0
+      FIELD: ARINC RX 3 Input Invalid         VALUE:  0
+      FIELD: Vane/Probe AOA Miscompare        VALUE:  0
+  LRU: LANDING GEAR SYSTEM CU
+    LABEL: WOW_STATUS                     VALUE: 275
+      FIELD: WOW                              VALUE:  0
+    LABEL: WOW_STATUS                     VALUE: 275
+      FIELD: WOW                              VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>3910    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ EVS is powered off, disconnected
+ or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>34-33-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:15 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>3433001EVS    </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_46      VALUE:  1
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z1 R7 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_46      VALUE:  1
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z1 R7 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5859    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ WDNU Fault / Reported by AHMU
+
+
+ ]]>
+ </Message_Text>
+ <ATA>46-35-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:15 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>4635002AHMS0  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: AHMU
+    LABEL: (350) AHMS Diagnostic Word 1   VALUE: 350
+      FIELD: WDNU Fault                       VALUE:  0
+      FIELD: SSM                              VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>8362    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ EDCM is powered off, disconnected
+ or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>52-00-00</ATA>
+ <Logged_Date_Time>25Apr2018 22:15 </Logged_Date_Time>
+ <Flight_Leg>-1 </Flight_Leg>
+ <Flight_Leg_Counter>1     </Flight_Leg_Counter>
+ <Flight_Phase>TAKEOFF </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>5250001EDCM   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_46      VALUE:  1
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z1 R7 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_46      VALUE:  1
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z1 R7 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7329    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ALT LIM FAIL / REPORTED BY IASC 2B
+
+
+ ]]>
+ </Message_Text>
+ <ATA>21-00-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>20 </Occurrences>
+ <Fault_Code>2100025IASC0  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: IASC 2
+    LABEL: SFY_Safety_status              VALUE: 233
+      FIELD: SDI                              VALUE:  2
+      FIELD: SFY_PRESS_SNSR_A_FAIL            VALUE:  0
+      FIELD: SFY_PRESS_SNSR_B_FAIL            VALUE:  0
+    LABEL: CPCS_Status_Word               VALUE: 270
+      FIELD: SDI                              VALUE:  3
+      FIELD: ALT_LIMITER_FAIL_INFO            VALUE:  0
+    LABEL: IASC Diagnostic Word 1         VALUE: 360
+      FIELD: SDI                              VALUE:  2
+      FIELD: CAB_PRESS_SNSR_SFY_DISAGREE      VALUE:  0
+    LABEL: IASC Diagnostic Word 1         VALUE: 360
+      FIELD: SDI                              VALUE:  3
+      FIELD: CAB_PRESS_SNSR_SFY_DISAGREE      VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>3971    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ PRINTER is powered off,
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>23-21-00</ATA>
+ <Logged_Date_Time>24Apr2018 04:00 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>16 </Occurrences>
+ <Fault_Code>2321001PRINT0 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: Config Manager
+    LABEL: CM Direct Option Data [15]     VALUE: 0
+      FIELD: RIU/CMU2 Data Link               VALUE:  0
+    LABEL: CM Direct Option Data [04]     VALUE: 0
+      FIELD: FlightDeck Printer Presnt        VALUE:  1
+  LRU: RIU 1
+    LABEL: CMU Data Link Bite Word 1      VALUE: 350
+      FIELD: Printer Activity                 VALUE:  1
+    LABEL: CMU Data Link Bite Word 1      VALUE: 350
+      FIELD: Printer Activity                 VALUE:  1
+  LRU: RIU 2
+    LABEL: CMU Data Link Bite Word 1      VALUE: 350
+      FIELD: Printer Activity                 VALUE: -
+    LABEL: CMU Data Link Bite Word 1      VALUE: 350
+      FIELD: Printer Activity                 VALUE: -
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>3185    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ RIU 1 output bus L-RIU-CVR is
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>23-81-01</ATA>
+ <Logged_Date_Time>24Apr2018 04:11 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>12 </Occurrences>
+ <Fault_Code>2381023RIU1   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_48      VALUE:  1
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z1 R9 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>6357    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ AC EP PR/NPR SIGNAL MISCOMPARE /
+ REPORTED BY EDMU1
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>24Apr2018 04:02 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>2  </Occurrences>
+ <Fault_Code>2461063EDMU1  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (350) EDMU1_BITE_03            VALUE: 350
+      FIELD: EDMU1_EXT_AC_PR_DSCRPNCY_FAIL    VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>6192    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ TRU1 FAN FAIL / REPORTED BY DCLOG1
+
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>24Apr2018 04:00 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2461053DCLOG1 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (350) DCLOG1_BITE_2            VALUE: 350
+      FIELD: DCLOG1_TRU1_FAN_FAIL             VALUE:  1
+  LRU: EDMU 2
+    LABEL: (350) DCLOG1_BITE_2            VALUE: 350
+      FIELD: DCLOG1_TRU1_FAN_FAIL             VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7613    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ RELAY INTLK APU BLC K3 AUX
+ MISCOMPARE / REPORTED BY DCLOG2
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>24Apr2018 04:00 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2461052DCLOG2 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (350) DCLOG2_BITE_4            VALUE: 350
+      FIELD: DCLOG2_INT_LOCK_SC_AUX_FAIL      VALUE:  1
+  LRU: EDMU 2
+    LABEL: (350) DCLOG2_BITE_4            VALUE: 350
+      FIELD: DCLOG2_INT_LOCK_SC_AUX_FAIL      VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>8149    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ EDMU 1 CONTROLLER MISSING
+ CONFIGURATION FILE
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>24Apr2018 04:00 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2461185EDMU1  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 1
+    LABEL: (350) EDMU1_BITE_01            VALUE: 350
+      FIELD: EDMU1_GREEN_CF_FAIL              VALUE:  0
+      FIELD: EDMU1_COMPLETION_CF_FAIL         VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>55      </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 24 ELECTRICAL - SOFTWARE
+   MISCONFIG
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+   <Fault_Code>246N64        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>2 </Number_of_Faults>
+   <Flight_Phase>GROUND  </Flight_Phase>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7749    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ EDMU 2 CONTROLLER MISSING
+ CONFIGURATION FILE
+
+ ]]>
+ </Message_Text>
+ <ATA>24-61-00</ATA>
+ <Logged_Date_Time>24Apr2018 04:00 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>2461134EDMU2  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: EDMU 2
+    LABEL: (350) EDMU2_BITE_01            VALUE: 350
+      FIELD: EDMU2_GREEN_CF_FAIL              VALUE:  0
+      FIELD: EDMU2_COMPLETION_CF_FAIL         VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>55      </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 24 ELECTRICAL - SOFTWARE
+   MISCONFIG
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+   <Fault_Code>246N64        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>2 </Number_of_Faults>
+   <Flight_Phase>GROUND  </Flight_Phase>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5000    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ PFCCS REPORT A DATA MISCOMPARE
+ FROM FMS
+
+ ]]>
+ </Message_Text>
+ <ATA>27-00-00</ATA>
+ <Logged_Date_Time>01Jan1970 00:01 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>16 </Occurrences>
+ <Fault_Code>2700103EXTLRU </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: Pri Flight Control Computer 1
+    LABEL: FBW MAINT 3 Sensor Fault       VALUE: 304
+      FIELD: FMS Misc Fault                   VALUE:  1
+  LRU: Pri Flight Control Computer 2
+    LABEL: FBW MAINT 3 Sensor Fault       VALUE: 304
+      FIELD: FMS Misc Fault                   VALUE:  1
+  LRU: Pri Flight Control Computer 3
+    LABEL: FBW MAINT 3 Sensor Fault       VALUE: 304
+      FIELD: FMS Misc Fault                   VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>4995    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ PFCC IN CONTROL REPORTS A DATA
+ MISCOMPARE FROM IRU 1 (A181)
+
+ ]]>
+ </Message_Text>
+ <ATA>27-00-00</ATA>
+ <Logged_Date_Time>01Jan1970 00:01 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>10 </Occurrences>
+ <Fault_Code>2745002EXTLRU </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: Pri Flight Control Computer 1
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  0
+    LABEL: FBW MAINT 2 Sensor Fault       VALUE: 302
+      FIELD: IRS1 Misc Fault                  VALUE:  1
+  LRU: Pri Flight Control Computer 2
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  0
+    LABEL: FBW MAINT 2 Sensor Fault       VALUE: 302
+      FIELD: IRS1 Misc Fault                  VALUE:  1
+  LRU: Pri Flight Control Computer 3
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  1
+    LABEL: FBW MAINT 2 Sensor Fault       VALUE: 302
+      FIELD: IRS1 Misc Fault                  VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5008    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ AHC (A429) DATA MISCOMPARE /
+ REPORTED AT LEAST BY 2 PFCC
+
+ ]]>
+ </Message_Text>
+ <ATA>27-03-00</ATA>
+ <Logged_Date_Time>01Jan1970 00:01 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>15 </Occurrences>
+ <Fault_Code>2703005AHC    </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: Pri Flight Control Computer 1
+    LABEL: FBW Misc Data                  VALUE: 154
+      FIELD: AHRS Fail                        VALUE:  0
+      FIELD: IRS Generic Fail                 VALUE:  0
+    LABEL: FBW PFCC MAINT FAULTS 13       VALUE: 274
+      FIELD: IRU AHRS REC Comparison Fail     VALUE: -
+    LABEL: FBW MAINT 2 Sensor Fault       VALUE: 302
+      FIELD: AHRS Misc Fault                  VALUE:  1
+    LABEL: FBW MAINT 3 Sensor Fault       VALUE: 304
+      FIELD: AHRS IRS Misc Fault              VALUE:  0
+  LRU: Pri Flight Control Computer 2
+    LABEL: FBW Misc Data                  VALUE: 154
+      FIELD: AHRS Fail                        VALUE:  0
+      FIELD: IRS Generic Fail                 VALUE:  0
+    LABEL: FBW PFCC MAINT FAULTS 13       VALUE: 274
+      FIELD: IRU AHRS REC Comparison Fail     VALUE: -
+    LABEL: FBW MAINT 2 Sensor Fault       VALUE: 302
+      FIELD: AHRS Misc Fault                  VALUE:  1
+    LABEL: FBW MAINT 3 Sensor Fault       VALUE: 304
+      FIELD: AHRS IRS Misc Fault              VALUE:  0
+  LRU: Pri Flight Control Computer 3
+    LABEL: FBW Misc Data                  VALUE: 154
+      FIELD: AHRS Fail                        VALUE:  0
+      FIELD: IRS Generic Fail                 VALUE:  0
+    LABEL: FBW PFCC MAINT FAULTS 13       VALUE: 274
+      FIELD: IRU AHRS REC Comparison Fail     VALUE: -
+    LABEL: FBW MAINT 2 Sensor Fault       VALUE: 302
+      FIELD: AHRS Misc Fault                  VALUE:  1
+    LABEL: FBW MAINT 3 Sensor Fault       VALUE: 304
+      FIELD: AHRS IRS Misc Fault              VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>8228    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ AFCU (A40) REPORTS INVALID OR NO
+ DATA FROM AHC (A429) / REPORTED BY
+ PFCC IN CONTROL
+ ]]>
+ </Message_Text>
+ <ATA>27-04-00</ATA>
+ <Logged_Date_Time>01Jan1970 00:01 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>23 </Occurrences>
+ <Fault_Code>2704043AFCU   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: Pri Flight Control Computer 1
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  0
+    LABEL: FBW PFCC MAINT FAULTS 3        VALUE: 353
+      FIELD: AFCU Bus Fault                   VALUE:  0
+      FIELD: AHC Bus Fault                    VALUE:  0
+    LABEL: FBW AFCU MAINT FAULTS 3        VALUE: 363
+      FIELD: AFCU AHC A429 Stale Fault        VALUE:  1
+  LRU: Pri Flight Control Computer 2
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  0
+    LABEL: FBW PFCC MAINT FAULTS 3        VALUE: 353
+      FIELD: AFCU Bus Fault                   VALUE:  0
+      FIELD: AHC Bus Fault                    VALUE:  0
+    LABEL: FBW AFCU MAINT FAULTS 3        VALUE: 363
+      FIELD: AFCU AHC A429 Stale Fault        VALUE:  1
+  LRU: Pri Flight Control Computer 3
+    LABEL: FBW PFCC Status 1              VALUE: 107
+      FIELD: Pfcc_In_Control                  VALUE:  1
+    LABEL: FBW PFCC MAINT FAULTS 3        VALUE: 353
+      FIELD: AFCU Bus Fault                   VALUE:  0
+      FIELD: AHC Bus Fault                    VALUE:  0
+    LABEL: FBW AFCU MAINT FAULTS 3        VALUE: 363
+      FIELD: AFCU AHC A429 Stale Fault        VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5323    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ R INNER FUEL TEMP SNSR OUT OF
+ RANGE / Reported by FQMC
+
+ ]]>
+ </Message_Text>
+ <ATA>28-41-03</ATA>
+ <Logged_Date_Time>24Apr2018 03:17 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>5  </Occurrences>
+ <Fault_Code>2840057FQMC   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_BUS_1_POWERED_GLB             VALUE:  1
+      FIELD: DC_APU_BATT_BUS_POWERED_GLB      VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_BUS_1_POWERED_GLB             VALUE: -
+      FIELD: DC_APU_BATT_BUS_POWERED_GLB      VALUE: -
+  LRU: DCM 2A-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_BUS_1_POWERED_GLB             VALUE: -
+      FIELD: DC_APU_BATT_BUS_POWERED_GLB      VALUE: -
+  LRU: DCM 2B-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_BUS_1_POWERED_GLB             VALUE:  1
+      FIELD: DC_APU_BATT_BUS_POWERED_GLB      VALUE:  1
+  LRU: FUEL QUAN MANAGEMENT COMPUTER
+    LABEL: VIRTUAL REFUEL PANEL CMD 2     VALUE: 341
+      FIELD: RDP POWERED                      VALUE:  0
+    LABEL: VIRTUAL REFUEL PANEL CMD 2     VALUE: 341
+      FIELD: RDP POWERED                      VALUE:  0
+    LABEL: FQMC Diagnostic Word 4         VALUE: 353
+      FIELD: SDI                              VALUE:  1
+      FIELD: R IN FTS FAIL                    VALUE:  1
+    LABEL: FQMC Diagnostic Word 4         VALUE: 353
+      FIELD: SDI                              VALUE:  2
+      FIELD: R IN FTS FAIL                    VALUE:  0
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: R FRDC A FAIL                    VALUE:  0
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: R FRDC A FAIL                    VALUE:  0
+    LABEL: FQMC Diagnostic Word 6         VALUE: 355
+      FIELD: R FRDC A COM FAIL                VALUE:  0
+      FIELD: R FRDC A CONNECTION FAIL         VALUE:  0
+    LABEL: FQMC Diagnostic Word 6         VALUE: 355
+      FIELD: R FRDC A COM FAIL                VALUE:  0
+      FIELD: R FRDC A CONNECTION FAIL         VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5325    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ R OUTER FUEL TEMP SNSR OUT OF
+ RANGE / Reported by FQMC
+
+ ]]>
+ </Message_Text>
+ <ATA>28-41-03</ATA>
+ <Logged_Date_Time>24Apr2018 03:17 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>4  </Occurrences>
+ <Fault_Code>2840059FQMC   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 1A-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_BUS_1_POWERED_GLB             VALUE:  0
+      FIELD: DC_APU_BATT_BUS_POWERED_GLB      VALUE:  1
+  LRU: DCM 1B-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_BUS_1_POWERED_GLB             VALUE: -
+      FIELD: DC_APU_BATT_BUS_POWERED_GLB      VALUE: -
+  LRU: DCM 2A-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_BUS_1_POWERED_GLB             VALUE: -
+      FIELD: DC_APU_BATT_BUS_POWERED_GLB      VALUE: -
+  LRU: DCM 2B-EICAS
+    LABEL: (254) Internal_Disc_Wd_5       VALUE: 254
+      FIELD: DC_BUS_1_POWERED_GLB             VALUE:  0
+      FIELD: DC_APU_BATT_BUS_POWERED_GLB      VALUE:  1
+  LRU: FUEL QUAN MANAGEMENT COMPUTER
+    LABEL: VIRTUAL REFUEL PANEL CMD 2     VALUE: 341
+      FIELD: RDP POWERED                      VALUE:  0
+    LABEL: VIRTUAL REFUEL PANEL CMD 2     VALUE: 341
+      FIELD: RDP POWERED                      VALUE:  0
+    LABEL: FQMC Diagnostic Word 4         VALUE: 353
+      FIELD: SDI                              VALUE:  1
+      FIELD: R OUT FTS FAIL                   VALUE:  1
+    LABEL: FQMC Diagnostic Word 4         VALUE: 353
+      FIELD: SDI                              VALUE:  2
+      FIELD: R OUT FTS FAIL                   VALUE:  0
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: R FRDC A FAIL                    VALUE:  0
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: R FRDC A FAIL                    VALUE:  0
+    LABEL: FQMC Diagnostic Word 6         VALUE: 355
+      FIELD: R FRDC A COM FAIL                VALUE:  0
+      FIELD: R FRDC A CONNECTION FAIL         VALUE:  0
+    LABEL: FQMC Diagnostic Word 6         VALUE: 355
+      FIELD: R FRDC A COM FAIL                VALUE:  0
+      FIELD: R FRDC A CONNECTION FAIL         VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5332    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ R FRDC B FAULT / Reported by FQMC
+
+
+ ]]>
+ </Message_Text>
+ <ATA>28-41-03</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>17 </Occurrences>
+ <Fault_Code>2840064FQMC   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: FUEL QUAN MANAGEMENT COMPUTER
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: SDI                              VALUE:  1
+      FIELD: R FRDC B FAIL                    VALUE:  0
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: SDI                              VALUE:  2
+      FIELD: R FRDC B FAIL                    VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5330    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ L FRDC B FAULT / Reported by FQMC
+
+
+ ]]>
+ </Message_Text>
+ <ATA>28-41-03</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>17 </Occurrences>
+ <Fault_Code>2840062FQMC   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: FUEL QUAN MANAGEMENT COMPUTER
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: SDI                              VALUE:  1
+      FIELD: L FRDC B FAIL                    VALUE:  0
+    LABEL: FQMC Diagnostic Word 5         VALUE: 354
+      FIELD: SDI                              VALUE:  2
+      FIELD: L FRDC B FAIL                    VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>7743    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ EVS FAIRING HEATER LOGIC INPUT
+ LABEL INVALID/ REPORTED BY DMC
+
+ ]]>
+ </Message_Text>
+ <ATA>30-45-01</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>17 </Occurrences>
+ <Fault_Code>3045007EVSFH1 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 1
+    LABEL: Selected Total Air Temperature VALUE: 130
+      FIELD: SSM                              VALUE:  3
+  LRU: ADSP 2
+    LABEL: Selected Total Air Temperature VALUE: 130
+      FIELD: SSM                              VALUE:  3
+  LRU: ADSP 3
+    LABEL: Selected Total Air Temperature VALUE: 130
+      FIELD: SSM                              VALUE:  3
+  LRU: ADSP 4
+    LABEL: Selected Total Air Temperature VALUE: 130
+      FIELD: SSM                              VALUE:  3
+  LRU: LANDING GEAR SYSTEM CU
+    LABEL: WOW_STATUS                     VALUE: 275
+      FIELD: SSM                              VALUE:  0
+    LABEL: WOW_STATUS                     VALUE: 275
+      FIELD: SSM                              VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1899    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ FDR FAILURE
+
+
+ ]]>
+ </Message_Text>
+ <ATA>31-31-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>16 </Occurrences>
+ <Fault_Code>3131001FDR    </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DMC 1A - IOM-6500
+    LABEL: Aircraft Discrete In 33-48 Lef VALUE: 6
+      FIELD: FDR Fail                         VALUE:  1
+  LRU: DMC 1B - IOM-6500
+    LABEL: Aircraft Discrete In 33-48 Lef VALUE: 6
+      FIELD: FDR Fail                         VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>4222    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ HDA is reporting an internal
+ failure of the IPC 3 - SVM
+
+ ]]>
+ </Message_Text>
+ <ATA>31-41-03</ATA>
+ <Logged_Date_Time>24Apr2018 04:00 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>3434005SVM    </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: IPC 3 - SVM - HM
+    NDO: VM2 Application Faults         NDO_ID: 23
+      FIELD: VM App Fault Codes 0-255_1       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_4       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_5       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_7       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_8       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_9       VALUE:  0
+      FIELD: VM App Fault Codes 0-255_10      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_11      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_12      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_13      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_14      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_15      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_16      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_17      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_18      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_19      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_20      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_21      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_22      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_25      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_27      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_28      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_29      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_30      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_31      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_32      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_33      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_34      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_35      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_36      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_37      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_38      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_39      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_40      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_41      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_42      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_43      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_44      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_45      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_46      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_47      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_48      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_51      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_52      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_69      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_70      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_74      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_76      VALUE:  0
+      FIELD: VM App Fault Codes 0-255_78      VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>50      </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Caution: SVS FAIL
+
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>24Apr2018 03:14:10</FDE_Logged_Date_Time>
+   <Fault_Code>343C03        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>1 </Number_of_Faults>
+   <Flight_Phase>GROUND  </Flight_Phase>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1571    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ DCM 2A output bus RA-DMC-4 is
+ disconnected or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>31-42-07</ATA>
+ <Logged_Date_Time>24Apr2018 04:00 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>3142013DCM2A  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: MKP 2
+    LABEL: MKP Diagnostics Word           VALUE: 350
+      FIELD: Receiver 1 Inactive              VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>4262    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ LGSCU CHA Reports a Discrete
+ Output Fault
+
+ ]]>
+ </Message_Text>
+ <ATA>32-31-01</ATA>
+ <Logged_Date_Time>24Apr2018 03:17 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>5  </Occurrences>
+ <Fault_Code>3231007LGSCUA </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: LANDING GEAR SYSTEM CU
+    LABEL: DISCRETE_OUTPUT_FAULT_1 CHA    VALUE: 344
+      FIELD: A_MGWOW_1_Fault                  VALUE:  0
+      FIELD: A_MGWOW_2_Fault                  VALUE:  0
+      FIELD: A_MGWOW_3_Fault                  VALUE:  0
+      FIELD: A_MGWOW_4_Fault                  VALUE:  0
+      FIELD: A_MGWOW_5_Fault                  VALUE:  0
+      FIELD: A_MGWOW_6_Fault                  VALUE:  0
+      FIELD: A_MGWOW_7_Fault                  VALUE:  0
+      FIELD: A_LG_WOW_IB_MP_1_Fault           VALUE:  0
+      FIELD: A_LG_WOW_IB_MP_1_OK_Fault        VALUE:  0
+      FIELD: A_MGWOW_9_Fault                  VALUE:  0
+      FIELD: A_MGWOW_10_Fault                 VALUE:  1
+      FIELD: A_WOW_12_Fault                   VALUE:  0
+      FIELD: A_WOW_13_Fault                   VALUE:  0
+      FIELD: A_WOFFW_14_Fault                 VALUE:  0
+      FIELD: A_LRGWOW_15_Fault                VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>4263    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ LGSCU CHB Reports a Discrete
+ Output Fault
+
+ ]]>
+ </Message_Text>
+ <ATA>32-31-01</ATA>
+ <Logged_Date_Time>24Apr2018 03:17 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>5  </Occurrences>
+ <Fault_Code>3231008LGSCUB </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: LANDING GEAR SYSTEM CU
+    LABEL: DISCRETE_OUTPUT_FAULT_1 CHB    VALUE: 344
+      FIELD: B_MGWOW_1_Fault                  VALUE:  0
+      FIELD: B_MGWOW_2_Fault                  VALUE:  0
+      FIELD: B_MGWOW_3_Fault                  VALUE:  0
+      FIELD: B_MGWOW_4_Fault                  VALUE:  0
+      FIELD: B_MGWOW_5_Fault                  VALUE:  0
+      FIELD: B_MGWOW_6_Fault                  VALUE:  0
+      FIELD: B_MGWOW_7_Fault                  VALUE:  0
+      FIELD: B_MGWOW_8_Fault                  VALUE:  0
+      FIELD: B_RG_WOW_OB_MP_1_Fault           VALUE:  0
+      FIELD: B_RG_WOW_OB_MP_1_OK_Fault        VALUE:  0
+      FIELD: B_MGWOW_9_Fault                  VALUE:  0
+      FIELD: B_MGWOW_10_Fault                 VALUE:  1
+      FIELD: B_NOT_MGWOW_11_Fault             VALUE:  0
+      FIELD: B_WOW_13_Fault                   VALUE:  0
+      FIELD: B_WOFFW_14_Fault                 VALUE:  0
+      FIELD: B_LRGWOW_15_Fault                VALUE:  0
+      FIELD: B_WOW_16_Fault                   VALUE:  0
+      FIELD: B_MGWOW_17_Fault                 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>5212    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ LGSCU CHA reports input bus
+ LA-DMC-14 is disconnected or
+ failed
+ ]]>
+ </Message_Text>
+ <ATA>32-31-01</ATA>
+ <Logged_Date_Time>01Jan1970 00:01 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>17 </Occurrences>
+ <Fault_Code>3231112LGSCURC</Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: APU
+    LABEL: APU Diagnostic Word 3          VALUE: 352
+      FIELD: APU_ARINC_LA_DMC_14_Fail         VALUE:  0
+  LRU: BRAKE CONTROL UNIT
+    LABEL: BCU Diagnostic Word 2          VALUE: 351
+      FIELD: Onside_A429_Input_Bus_Fail       VALUE:  0
+  LRU: FIRE DETECTION AND EXT
+    LABEL: FIDEEX Diagnostic Word 2       VALUE: 351
+      FIELD: FIDEEX No Bus Input LA-DMC-14    VALUE:  0
+    LABEL: FIDEEX Diagnostic Word 2       VALUE: 351
+      FIELD: FIDEEX No Bus Input LA-DMC-14    VALUE:  0
+  LRU: FUEL QUAN MANAGEMENT COMPUTER
+    LABEL: FQMC Diagnostic Word 6         VALUE: 355
+      FIELD: A429 LA-DMC-14 FAIL              VALUE:  0
+    LABEL: FQMC Diagnostic Word 6         VALUE: 355
+      FIELD: A429 LA-DMC-14 FAIL              VALUE:  0
+  LRU: LANDING GEAR SYSTEM CU
+    LABEL: GEAR_CONTROL_STATUS_1          VALUE: 270
+      FIELD: LGC_Fault                        VALUE:  1
+    LABEL: STEERING_CONTROL_STATUS        VALUE: 273
+      FIELD: SC_Fault                         VALUE:  0
+    LABEL: LGSCU Diagnostic Word 5        VALUE: 354
+      FIELD: ARINC_Input_Fault                VALUE:  1
+  LRU: TIRE PRESSURE MONITORING UNIT
+    LABEL: TPIS Diagnostic Word 1         VALUE: 350
+      FIELD: TPMU_L_A429_Input_Fault          VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>953     </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP1 NO BUS INPUT from AOA_1-1
+
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:17 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>6  </Occurrences>
+ <Fault_Code>3410128ADSP1  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 1
+    LABEL: ADSP Status Word 2             VALUE: 272
+      FIELD: ARINC RX 3 Input Invalid         VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1937    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP3 NO BUS INPUT from AOA_1-2
+
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:17 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>5  </Occurrences>
+ <Fault_Code>3410333ADSP3  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 3
+    LABEL: ADSP Status Word 2             VALUE: 272
+      FIELD: ARINC RX 3 Input Invalid         VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1053    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP2 NO BUS INPUT from AOA_2-1
+
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:17 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Not Active</Status>
+ <Occurrences>6  </Occurrences>
+ <Fault_Code>3410228ADSP2  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 2
+    LABEL: ADSP Status Word 2             VALUE: 272
+      FIELD: ARINC RX 3 Input Invalid         VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1951    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ AOA2 VANE HEATER FAILURE
+
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>18 </Occurrences>
+ <Fault_Code>3410802ADSP24 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 2
+    LABEL: Vane Maintenance Word          VALUE: 361
+      FIELD: Vane Heater Fail                 VALUE:  1
+  LRU: ADSP 4
+    LABEL: Vane Maintenance Word          VALUE: 361
+      FIELD: Vane Heater Fail                 VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1955    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ AOA1 VANE HEATER FAILURE
+
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>18 </Occurrences>
+ <Fault_Code>3410702ADSP13 </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 1
+    LABEL: Vane Maintenance Word          VALUE: 361
+      FIELD: Vane Heater Fail                 VALUE:  1
+  LRU: ADSP 3
+    LABEL: Vane Maintenance Word          VALUE: 361
+      FIELD: Vane Heater Fail                 VALUE:  1
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1422    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP3 MAIN CH REPORTS NO TAT
+ HEATER PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>11 </Occurrences>
+ <Fault_Code>3410313ADSP3  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 3
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: TAT Heater Power On              VALUE:  0
+  LRU: AFD 3
+    LABEL: (350) AFD_Diagnostics_Wd_1     VALUE: 350
+      FIELD: A429_INPUT_8_FAIL_OUT            VALUE:  0
+  LRU: AFD 4
+    LABEL: (350) AFD_Diagnostics_Wd_1     VALUE: 350
+      FIELD: A429_INPUT_8_FAIL_OUT            VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1451    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP4 MAIN CH REPORTS NO TAT
+ HEATER PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>12 </Occurrences>
+ <Fault_Code>3410413ADSP4  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 4
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: TAT Heater Power On              VALUE:  0
+  LRU: AFD 3
+    LABEL: (352) AFD_Diagnostics_Wd_3     VALUE: 352
+      FIELD: A429_INPUT_15_FAIL_OUT           VALUE:  0
+  LRU: AFD 4
+    LABEL: (352) AFD_Diagnostics_Wd_3     VALUE: 352
+      FIELD: A429_INPUT_15_FAIL_OUT           VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1940    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP3 MAIN CH REPORTS NO MFP
+ HEATER PRIMARY PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>12 </Occurrences>
+ <Fault_Code>3410306ADSP3  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 3
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: MFP Heater Power Source 1 On     VALUE:  0
+  LRU: AFD 3
+    LABEL: (350) AFD_Diagnostics_Wd_1     VALUE: 350
+      FIELD: A429_INPUT_8_FAIL_OUT            VALUE:  0
+  LRU: AFD 4
+    LABEL: (350) AFD_Diagnostics_Wd_1     VALUE: 350
+      FIELD: A429_INPUT_8_FAIL_OUT            VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>58      </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 34 NAVIGATION - ADS 3 HEATER
+   REDUND LOSS
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+   <Fault_Code>341N28        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>2 </Number_of_Faults>
+   <Flight_Phase>GROUND  </Flight_Phase>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1943    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP3 MAIN CH REPORTS NO MFP
+ HEATER SECONDARY PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>14 </Occurrences>
+ <Fault_Code>3410307ADSP3  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 3
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: MFP Heater Power Source 2 On     VALUE:  0
+  LRU: AFD 3
+    LABEL: (350) AFD_Diagnostics_Wd_1     VALUE: 350
+      FIELD: A429_INPUT_8_FAIL_OUT            VALUE:  0
+  LRU: AFD 4
+    LABEL: (350) AFD_Diagnostics_Wd_1     VALUE: 350
+      FIELD: A429_INPUT_8_FAIL_OUT            VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_109     VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z2 R6 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>58      </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 34 NAVIGATION - ADS 3 HEATER
+   REDUND LOSS
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+   <Fault_Code>341N28        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>2 </Number_of_Faults>
+   <Flight_Phase>GROUND  </Flight_Phase>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1944    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP2 MAIN CH REPORTS NO MFP
+ HEATER SECONDARY PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>11 </Occurrences>
+ <Fault_Code>3410207ADSP2  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 2
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: MFP Heater Power Source 2 On     VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_93      VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z1 R6 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_93      VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z1 R6 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_93      VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z1 R6 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_93      VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z1 R6 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>56      </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 34 NAVIGATION - ADS 2 HEATER
+   REDUND LOSS
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+   <Fault_Code>341N27        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>2 </Number_of_Faults>
+   <Flight_Phase>GROUND  </Flight_Phase>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>959     </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP1 MAIN CH REPORTS NO MFP
+ HEATER PRIMARY PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>11 </Occurrences>
+ <Fault_Code>3410106ADSP1  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 1
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: MFP Heater Power Source 1 On     VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>59      </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 34 NAVIGATION - ADS 1 HEATER
+   REDUND LOSS
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+   <Fault_Code>341N26        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>2 </Number_of_Faults>
+   <Flight_Phase>GROUND  </Flight_Phase>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>968     </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP1 MAIN CH REPORTS NO MFP
+ HEATER SECONDARY PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>11 </Occurrences>
+ <Fault_Code>3410107ADSP1  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 1
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: MFP Heater Power Source 2 On     VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_49      VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>59      </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 34 NAVIGATION - ADS 1 HEATER
+   REDUND LOSS
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+   <Fault_Code>341N26        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>2 </Number_of_Faults>
+   <Flight_Phase>GROUND  </Flight_Phase>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1061    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP2 MAIN CH REPORTS NO MFP
+ HEATER PRIMARY PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>11 </Occurrences>
+ <Fault_Code>3410206ADSP2  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 2
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: MFP Heater Power Source 1 On     VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_93      VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z1 R6 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_93      VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z1 R6 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_93      VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z1 R6 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_93      VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M2 Z1 R6 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>56      </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 34 NAVIGATION - ADS 2 HEATER
+   REDUND LOSS
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+   <Fault_Code>341N27        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>2 </Number_of_Faults>
+   <Flight_Phase>GROUND  </Flight_Phase>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1439    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP4 MAIN CH REPORTS NO MFP
+ HEATER PRIMARY PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>13 </Occurrences>
+ <Fault_Code>3410406ADSP4  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 4
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: MFP Heater Power Source 1 On     VALUE:  0
+  LRU: AFD 3
+    LABEL: (352) AFD_Diagnostics_Wd_3     VALUE: 352
+      FIELD: A429_INPUT_15_FAIL_OUT           VALUE:  0
+  LRU: AFD 4
+    LABEL: (352) AFD_Diagnostics_Wd_3     VALUE: 352
+      FIELD: A429_INPUT_15_FAIL_OUT           VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>57      </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 34 NAVIGATION - ADS 4 HEATER
+   REDUND LOSS
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+   <Fault_Code>341N29        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>2 </Number_of_Faults>
+   <Flight_Phase>GROUND  </Flight_Phase>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>1440    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ ADSP4 MAIN CH REPORTS NO MFP
+ HEATER SECONDARY PWR INPUT
+
+ ]]>
+ </Message_Text>
+ <ATA>34-11-00</ATA>
+ <Logged_Date_Time>24Apr2018 03:14 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>GROUND  </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>14 </Occurrences>
+ <Fault_Code>3410407ADSP4  </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: ADSP 4
+    LABEL: ADSP Status Word 1             VALUE: 270
+      FIELD: MFP Heater Power Source 2 On     VALUE:  0
+  LRU: AFD 3
+    LABEL: (352) AFD_Diagnostics_Wd_3     VALUE: 352
+      FIELD: A429_INPUT_15_FAIL_OUT           VALUE:  0
+  LRU: AFD 4
+    LABEL: (352) AFD_Diagnostics_Wd_3     VALUE: 352
+      FIELD: A429_INPUT_15_FAIL_OUT           VALUE:  0
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_65      VALUE:  0
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX InterfaceError M1 Z1 R10 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+  <FDE>
+   <Equation_ID>57      </Equation_ID>
+   <Message_Text>
+   <![CDATA[
+   Info: 34 NAVIGATION - ADS 4 HEATER
+   REDUND LOSS
+
+   ]]>
+   </Message_Text>
+   <FDE_Logged_Date_Time>24Apr2018 03:14:11</FDE_Logged_Date_Time>
+   <Fault_Code>341N29        </Fault_Code>
+   <Category>        </Category>
+   <Number_of_Faults>2 </Number_of_Faults>
+   <Flight_Phase>GROUND  </Flight_Phase>
+   <Flight_Leg>-2 </Flight_Leg>
+   <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+  </FDE>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>3910    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ EVS is powered off, disconnected
+ or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>34-33-00</ATA>
+ <Logged_Date_Time>24Apr2018 04:00 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>3433001EVS    </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 1A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_46      VALUE:  1
+  LRU: DCM 1A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z1 R7 VALUE:  0
+  LRU: DCM 1B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_46      VALUE:  1
+  LRU: DCM 1B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z1 R7 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+<Fault_Message>
+ <Equation_ID>8362    </Equation_ID>
+ <Message_Text>
+ <![CDATA[
+ EDCM is powered off, disconnected
+ or failed
+
+ ]]>
+ </Message_Text>
+ <ATA>52-00-00</ATA>
+ <Logged_Date_Time>24Apr2018 04:00 </Logged_Date_Time>
+ <Flight_Leg>-2 </Flight_Leg>
+ <Flight_Leg_Counter>0     </Flight_Leg_Counter>
+ <Flight_Phase>TAXI    </Flight_Phase>
+ <Flight_Number>        </Flight_Number>
+ <Status>Active    </Status>
+ <Occurrences>1  </Occurrences>
+ <Fault_Code>5250001EDCM   </Fault_Code>
+ <Suspected_LRUs>
+ </Suspected_LRUs>
+ <Data_Used_to_Determine_Fault>
+ <![CDATA[
+  LRU: DCM 2A - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_46      VALUE:  1
+  LRU: DCM 2A - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z1 R7 VALUE:  0
+  LRU: DCM 2B - HM
+    NDO: VM1 Application Faults         NDO_ID: 15
+      FIELD: VM App Fault Codes 0-255_46      VALUE:  1
+  LRU: DCM 2B - IOC
+    NDO: CBIT Status 2                  NDO_ID: 1738789
+      FIELD: A429 RX Interface Error M1 Z1 R7 VALUE:  0
+ ]]>
+ </Data_Used_to_Determine_Fault>
+ <Correlated_Flight_Deck_Effects>
+ </Correlated_Flight_Deck_Effects>
+</Fault_Message>
+</FaultMsgs_Report>

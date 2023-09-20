@@ -1,0 +1,30 @@
+{
+  "name": "global7500_services",
+  "version": "2.2.7",
+  "description": "Global 7500 Services",
+  "author": "Mihail Puica <mihail@mpdeveloper.ca>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --watch --coverage"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.4.0",
+    "dateformat": "^3.0.3",
+    "sqlite": "^3.0.1",
+    "xml-js": "^1.6.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.11.0",
+    "jest": "^21.2.1",
+    "jest-cli": "^21.2.1",
+    "lodash": "^4.17.11",
+    "superagent": "^3.8.1",
+    "supertest": "^3.0.0",
+    "sqlite3": "^4.0.4"
+  }
+}
